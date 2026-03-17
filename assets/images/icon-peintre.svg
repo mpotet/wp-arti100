@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Peintre</title>
+  <!-- Rouleau à peindre -->
+  <rect x="10" y="12" width="36" height="14" rx="7" fill="#007CBA"/>
+  <rect x="40" y="15" width="6" height="8" rx="2" fill="#005a8a"/>
+  <rect x="44" y="10" width="4" height="38" rx="2" fill="#F5821F"/>
+  <!-- Pinceau -->
+  <path d="M22 32 L22 56 L28 56 L28 32Z" fill="#007CBA"/>
+  <path d="M20 52 Q25 60 30 52" fill="#d4680a"/>
+</svg>

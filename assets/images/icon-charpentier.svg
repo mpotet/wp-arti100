@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Charpentier</title>
+  <!-- Toit charpente -->
+  <path d="M32 6 L6 26 L12 26 L12 50 L52 50 L52 26 L58 26Z" fill="#007CBA"/>
+  <path d="M32 6 L58 26 L52 26 L32 12 L12 26 L6 26Z" fill="#005a8a"/>
+  <!-- Poutres -->
+  <rect x="28" y="12" width="8" height="38" rx="2" fill="#d4680a"/>
+  <rect x="12" y="34" width="40" height="6" rx="2" fill="#F5821F"/>
+</svg>

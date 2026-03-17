@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Menuisier</title>
+  <!-- Scie circulaire -->
+  <circle cx="32" cy="32" r="22" fill="#007CBA"/>
+  <circle cx="32" cy="32" r="14" fill="#daeef7"/>
+  <circle cx="32" cy="32" r="4"  fill="#005a8a"/>
+  <!-- Dents de scie -->
+  <path d="M32 10v6M32 48v6M10 32h6M48 32h6M17.1 17.1l4.2 4.2M42.7 42.7l4.2 4.2M17.1 46.9l4.2-4.2M42.7 21.3l4.2-4.2" stroke="#F5821F" stroke-width="3" stroke-linecap="round"/>
+  <!-- Tasseaux bois -->
+  <rect x="6" y="56" width="52" height="6" rx="2" fill="#d4680a"/>
+</svg>
