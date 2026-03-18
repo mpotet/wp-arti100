@@ -1,0 +1,798 @@
+# Spanish (Spain) translations for Arti100
+# Copyright (C) 2025 Maxim Potet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arti100 1.0.0\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "🏠 Général"
+msgstr "🏠 General"
+
+msgid "📝 Contenu"
+msgstr "📝 Contenido"
+
+msgid "🔌 Intégrations"
+msgstr "🔌 Integraciones"
+
+msgid "📈 SEO & Footer"
+msgstr "📈 SEO y Pie de página"
+
+msgid "Arti100 Settings"
+msgstr "Ajustes de Arti100"
+
+msgid "Arti100 — Paramètres du thème"
+msgstr "Arti100 — Ajustes del tema"
+
+msgid "⚙️ Arti100"
+msgstr "⚙️ Arti100"
+
+msgid "Enregistrer les paramètres"
+msgstr "Guardar ajustes"
+
+msgid "✅ Paramètres sauvegardés."
+msgstr "✅ Ajustes guardados."
+
+msgid "Choisir image"
+msgstr "Elegir imagen"
+
+msgid "Afficher"
+msgstr "Mostrar"
+
+msgid "Menu principal"
+msgstr "Menú principal"
+
+msgid "Menu pied de page"
+msgstr "Menú de pie de página"
+
+msgid "Barre latérale"
+msgstr "Barra lateral"
+
+msgid "Footer colonne 1"
+msgstr "Columna 1 del pie de página"
+
+msgid "Aller au contenu"
+msgstr "Ir al contenido"
+
+msgid "Ouvrir le menu"
+msgstr "Abrir menú"
+
+msgid "Navigation"
+msgstr "Navegación"
+
+msgid "Accueil"
+msgstr "Inicio"
+
+msgid "Services"
+msgstr "Servicios"
+
+msgid "Réalisations"
+msgstr "Proyectos"
+
+msgid "Équipe"
+msgstr "Equipo"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Actualités"
+msgstr "Noticias"
+
+msgid "🦸 Hero Section"
+msgstr "🦸 Sección principal (Hero)"
+
+msgid "Titre principal"
+msgstr "Título principal"
+
+msgid "Sous-titre"
+msgstr "Subtítulo"
+
+msgid "Texte CTA bouton"
+msgstr "Texto del botón CTA"
+
+msgid "Image fond hero (URL)"
+msgstr "Imagen de fondo del hero (URL)"
+
+msgid "Utilisez \n pour couper la ligne."
+msgstr "Use \n para cortar la línea."
+
+msgid "Certifié RGE"
+msgstr "Certificado RGE"
+
+msgid "Assuré RC Pro"
+msgstr "Asegurado RC Pro"
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Demander un devis gratuit"
+msgstr "Obtener un presupuesto gratuito"
+
+msgid "Chantiers réalisés"
+msgstr "Proyectos realizados"
+
+msgid "D'expérience"
+msgstr "De experiencia"
+
+msgid "Clients satisfaits"
+msgstr "Clientes satisfechos"
+
+msgid "Note Google"
+msgstr "Valoración de Google"
+
+msgid "Badge 1 (icône ✅)"
+msgstr "Distintivo 1 (icono ✅)"
+
+msgid "Badge 2 (icône 🛡️)"
+msgstr "Distintivo 2 (icono 🛡️)"
+
+msgid "Badge 3 (icône 📍)"
+msgstr "Distintivo 3 (icono 📍)"
+
+msgid "Laissez vide pour masquer."
+msgstr "Dejar vacío para ocultar."
+
+msgid "Vide → utilise la Zone d'intervention (Général)."
+msgstr "Vacío → usa la Zona de intervención (General)."
+
+msgid "Appeler"
+msgstr "Llamar"
+
+msgid "🏅 Bande de confiance (4 éléments)"
+msgstr "🏅 Banda de confianza (4 elementos)"
+
+msgid "Bande de confiance (Trust strip)"
+msgstr "Banda de confianza"
+
+msgid "Élément %d"
+msgstr "Elemento %d"
+
+msgid "Titre"
+msgstr "Título"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "📊 Statistiques (hero)"
+msgstr "📊 Estadísticas (hero)"
+
+msgid "Stat %d"
+msgstr "Estadística %d"
+
+msgid "Valeur"
+msgstr "Valor"
+
+msgid "Suffixe"
+msgstr "Sufijo"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Ex : +, %, \" ans\", \"/5\""
+msgstr "Ej.: +, %, \" años\", \"/5\""
+
+msgid "🏢 Informations entreprise"
+msgstr "🏢 Información de la empresa"
+
+msgid "Nom entreprise"
+msgstr "Nombre de la empresa"
+
+msgid "Slogan"
+msgstr "Eslogan"
+
+msgid "Artisan qualifié près de chez vous."
+msgstr "Artesano cualificado cerca de usted."
+
+msgid "Métier principal"
+msgstr "Oficio principal"
+
+msgid "Téléphone"
+msgstr "Teléfono"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Adresse"
+msgstr "Dirección"
+
+msgid "Zone intervention"
+msgstr "Zona de intervención"
+
+msgid "Zone d'intervention"
+msgstr "Zona de intervención"
+
+msgid "SIRET"
+msgstr "SIRET"
+
+msgid "SIRET :"
+msgstr "SIRET:"
+
+msgid "Tous droits réservés"
+msgstr "Todos los derechos reservados"
+
+msgid "Mentions légales"
+msgstr "Aviso legal"
+
+msgid "Confidentialité"
+msgstr "Privacidad"
+
+msgid "🖼️ Logo & Couleurs"
+msgstr "🖼️ Logo y colores"
+
+msgid "URL du logo"
+msgstr "URL del logo"
+
+msgid "Couleur primaire"
+msgstr "Color primario"
+
+msgid "Couleur accent (orange)"
+msgstr "Color de acento (naranja)"
+
+msgid "📱 Réseaux sociaux"
+msgstr "📱 Redes sociales"
+
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+msgid "Instagram URL"
+msgstr "URL de Instagram"
+
+msgid "LinkedIn URL"
+msgstr "URL de LinkedIn"
+
+msgid "👁️ Affichage des sections"
+msgstr "👁️ Visibilidad de secciones"
+
+msgid "Cochez pour afficher une section sur la page d'accueil."
+msgstr "Marque para mostrar una sección en la página de inicio."
+
+msgid "✏️ Titres & sous-titres des sections"
+msgstr "✏️ Títulos y subtítulos de las secciones"
+
+msgid "🔧 Services"
+msgstr "🔧 Servicios"
+
+msgid "🏗️ Réalisations"
+msgstr "🏗️ Proyectos"
+
+msgid "👷 Équipe"
+msgstr "👷 Equipo"
+
+msgid "⭐ Témoignages"
+msgstr "⭐ Testimonios"
+
+msgid "📬 Contact"
+msgstr "📬 Contacto"
+
+msgid "Note globale (ex: 4.9)"
+msgstr "Valoración global (ej: 4.9)"
+
+msgid "🕐 Horaires d'ouverture"
+msgstr "🕐 Horario de apertura"
+
+msgid "Lundi – Vendredi"
+msgstr "Lunes – Viernes"
+
+msgid "Lun – Ven"
+msgstr "Lun – Vie"
+
+msgid "Samedi"
+msgstr "Sábado"
+
+msgid "Dimanche"
+msgstr "Domingo"
+
+msgid "Fermé"
+msgstr "Cerrado"
+
+msgid "Horaires"
+msgstr "Horarios"
+
+msgid "📞 Mode de contact"
+msgstr "📞 Modo de contacto"
+
+msgid "Choisissez comment les visiteurs peuvent vous contacter. Dans les deux cas, le téléphone, l'email et les horaires sont affichés."
+msgstr "Elija cómo pueden contactarle los visitantes. En ambos casos se muestran el teléfono, el email y los horarios."
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Texte uniquement — affiche téléphone, email et horaires"
+msgstr "Solo texto — muestra teléfono, email y horarios"
+
+msgid "Lien externe — ajoute un bouton vers un site de RDV / contact"
+msgstr "Enlace externo — añade un botón a un sitio de citas / contacto"
+
+msgid "URL du lien (mode Lien)"
+msgstr "URL del enlace (modo Enlace)"
+
+msgid "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+msgstr "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+
+msgid "Texte du bouton (mode Lien)"
+msgstr "Texto del botón (modo Enlace)"
+
+msgid "💬 Témoignages clients (6 max)"
+msgstr "💬 Testimonios de clientes (6 máx.)"
+
+msgid "Ces témoignages s'affichent si aucun avis n'est renseigné dans les Réalisations (CPT). Laissez le texte vide pour masquer un témoignage."
+msgstr "Estos testimonios se muestran si no hay reseñas en Proyectos (CPT). Deje el texto vacío para ocultar un testimonio."
+
+msgid "Témoignage %d"
+msgstr "Testimonio %d"
+
+msgid "Nom"
+msgstr "Nombre"
+
+msgid "Localité"
+msgstr "Localidad"
+
+msgid "Texte"
+msgstr "Texto"
+
+msgid "Note (1-5)"
+msgstr "Valoración (1-5)"
+
+msgid "Témoignages clients"
+msgstr "Testimonios de clientes"
+
+msgid "Témoin client"
+msgstr "Cliente"
+
+msgid "📅 Prise de RDV Calendly"
+msgstr "📅 Reserva de citas con Calendly"
+
+msgid "URL Calendly"
+msgstr "URL de Calendly"
+
+msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
+msgstr "Su enlace personal de Calendly. Se abrirá un popup al hacer clic en \"Reservar cita\"."
+
+msgid "📧 Contact Form 7 (ID du formulaire)"
+msgstr "📧 Contact Form 7 (ID del formulario)"
+
+msgid "ID du formulaire CF7"
+msgstr "ID del formulario CF7"
+
+msgid "Trouvez l'ID dans Contact → Formulaires de contact."
+msgstr "Encuentre el ID en Contacto → Formularios de contacto."
+
+msgid "📊 Google Analytics"
+msgstr "📊 Google Analytics"
+
+msgid "GA4 Measurement ID"
+msgstr "ID de medición GA4"
+
+msgid "🗺️ Google Maps"
+msgstr "🗺️ Google Maps"
+
+msgid "Code embed iframe"
+msgstr "Código iframe embebido"
+
+msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
+msgstr "Pegue el iframe de Google Maps aquí. También puede usar el shortcode [arti100_map] en las páginas."
+
+msgid "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
+msgstr "Mapa no configurado. Añada el código embed en Arti100 → Integraciones."
+
+msgid "🔍 Meta SEO"
+msgstr "🔍 Meta SEO"
+
+msgid "Meta description homepage"
+msgstr "Meta descripción de la página de inicio"
+
+msgid "Image Open Graph"
+msgstr "Imagen Open Graph"
+
+msgid "📄 Pied de page légal"
+msgstr "📄 Pie de página legal"
+
+msgid "Texte pied de page"
+msgstr "Texto del pie de página"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Nouveau service"
+msgstr "Nuevo servicio"
+
+msgid "Modifier le service"
+msgstr "Editar servicio"
+
+msgid "Détails du service"
+msgstr "Detalles del servicio"
+
+msgid "Ajouter un service"
+msgstr "Añadir un servicio"
+
+msgid "Toutes nos prestations"
+msgstr "Todos nuestros servicios"
+
+msgid "Aucun service trouvé."
+msgstr "Ningún servicio encontrado."
+
+msgid "Aucun service configuré. Allez dans Services → Ajouter un service."
+msgstr "Ningún servicio configurado. Vaya a Servicios → Añadir un servicio."
+
+msgid "Prix indicatif"
+msgstr "Precio orientativo"
+
+msgid "Durée indicative"
+msgstr "Duración aproximada"
+
+msgid "Icône (SVG inline ou emoji)"
+msgstr "Ícono (SVG en línea o emoji)"
+
+msgid "Ordre d'affichage"
+msgstr "Orden de visualización"
+
+msgid "Réalisations / Portfolio"
+msgstr "Proyectos / Portfolio"
+
+msgid "Travaux"
+msgstr "Proyectos"
+
+msgid "Travail"
+msgstr "Trabajo"
+
+msgid "Nouveau chantier"
+msgstr "Nuevo proyecto"
+
+msgid "Modifier le chantier"
+msgstr "Editar proyecto"
+
+msgid "Voir le chantier"
+msgstr "Ver proyecto"
+
+msgid "Ajouter un chantier"
+msgstr "Añadir un proyecto"
+
+msgid "Détails du chantier"
+msgstr "Detalles del proyecto"
+
+msgid "Aucun chantier trouvé"
+msgstr "No se encontraron proyectos"
+
+msgid "Aucune réalisation trouvée."
+msgstr "Ningún proyecto encontrado."
+
+msgid "Aucune réalisation pour le moment. Revenez bientôt !"
+msgstr "Ningún proyecto por el momento. ¡Vuelva pronto!"
+
+msgid "Photo AVANT (URL)"
+msgstr "Foto ANTES (URL)"
+
+msgid "Photo APRÈS (URL)"
+msgstr "Foto DESPUÉS (URL)"
+
+msgid "Durée chantier"
+msgstr "Duración del proyecto"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Types de travaux"
+msgstr "Tipos de trabajos"
+
+msgid "Membre"
+msgstr "Miembro"
+
+msgid "Ajouter un membre"
+msgstr "Añadir un miembro"
+
+msgid "Profil du membre"
+msgstr "Perfil del miembro"
+
+msgid "Poste / Métier"
+msgstr "Puesto / Oficio"
+
+msgid "Bio courte"
+msgstr "Biografía breve"
+
+msgid "LinkedIn de %s"
+msgstr "LinkedIn de %s"
+
+msgid "Téléphone direct"
+msgstr "Teléfono directo"
+
+msgid "Ce que nous faisons"
+msgstr "Lo que hacemos"
+
+msgid "Nos services"
+msgstr "Nuestros servicios"
+
+msgid "Des prestations professionnelles pour tous vos travaux, réalisées avec soin et garanties."
+msgstr "Servicios profesionales para todos sus trabajos, realizados con cuidado y garantizados."
+
+msgid "En savoir plus sur %s"
+msgstr "Más información sobre %s"
+
+msgid "En savoir plus"
+msgstr "Más información"
+
+msgid "Obtenir un devis gratuit"
+msgstr "Obtener un presupuesto gratuito"
+
+msgid "Aucun service publié."
+msgstr "Ningún servicio publicado."
+
+msgid "Ajouter des services →"
+msgstr "Añadir servicios →"
+
+msgid "Nos réalisations"
+msgstr "Nuestros proyectos"
+
+msgid "Nos chantiers"
+msgstr "Nuestros proyectos"
+
+msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
+msgstr "Descubra nuestros últimos proyectos, realizados con profesionalismo."
+
+msgid "Avant travaux — %s"
+msgstr "Antes — %s"
+
+msgid "Après travaux — %s"
+msgstr "Después — %s"
+
+msgid "Avant"
+msgstr "Antes"
+
+msgid "Après"
+msgstr "Después"
+
+msgid "Curseur avant/après"
+msgstr "Control deslizante antes/después"
+
+msgid "Voir le détail"
+msgstr "Ver detalles"
+
+msgid "Voir toutes les réalisations"
+msgstr "Ver todos los proyectos"
+
+msgid "Aucune réalisation publiée."
+msgstr "Ningún proyecto publicado."
+
+msgid "Ajouter des réalisations →"
+msgstr "Añadir proyectos →"
+
+msgid "Notre équipe"
+msgstr "Nuestro equipo"
+
+msgid "Des pros à votre service"
+msgstr "Profesionales a su servicio"
+
+msgid "Une équipe qualifiée, passionnée et disponible pour tous vos travaux."
+msgstr "Un equipo cualificado, apasionado y disponible para todos sus proyectos."
+
+msgid "Aucun membre d'équipe publié."
+msgstr "Ningún miembro del equipo publicado."
+
+msgid "Ajouter des artisans →"
+msgstr "Añadir artesanos →"
+
+msgid "Ils nous font confiance"
+msgstr "Confían en nosotros"
+
+msgid "Avis de nos clients"
+msgstr "Opiniones de nuestros clientes"
+
+msgid "sur Google"
+msgstr "en Google"
+
+msgid "Aucun témoignage configuré."
+msgstr "Ningún testimonio configurado."
+
+msgid "Ajouter des témoignages →"
+msgstr "Añadir testimonios →"
+
+msgid "ou publier des réalisations avec un avis client."
+msgstr "o publicar proyectos con una opinión de cliente."
+
+msgid "Contactez-nous"
+msgstr "Contáctenos"
+
+msgid "Nos coordonnées"
+msgstr "Nuestros datos de contacto"
+
+msgid "Texte de présentation"
+msgstr "Texto de presentación"
+
+msgid "Texte libre affiché sous le titre, au-dessus des coordonnées. Laissez vide pour masquer."
+msgstr "Texto libre mostrado bajo el título, encima de los datos de contacto. Dejar vacío para ocultar."
+
+msgid "Demandez votre devis gratuit"
+msgstr "Solicite su presupuesto gratuito"
+
+msgid "Réponse sous 24h · Devis gratuit et sans engagement"
+msgstr "Respuesta en 24h · Presupuesto gratuito y sin compromiso"
+
+msgid "Contactez-nous directement"
+msgstr "Contáctenos directamente"
+
+msgid "Prendre rendez-vous en ligne"
+msgstr "Reservar una cita en línea"
+
+msgid "Mode « Lien » activé mais aucune URL configurée."
+msgstr "Modo «Enlace» activado pero sin URL configurada."
+
+msgid "Configurer →"
+msgstr "Configurar →"
+
+msgid "Contactez-nous gratuitement, sans engagement."
+msgstr "Contáctenos de forma gratuita, sin compromiso."
+
+msgid "Contactez-nous dès aujourd'hui."
+msgstr "Contáctenos hoy mismo."
+
+msgid "XXX - Votre titre principal"
+msgstr "XXX - Su título principal"
+
+msgid "XXX - Votre sous-titre descriptif · Devis gratuit"
+msgstr "XXX - Su subtítulo descriptivo · Presupuesto gratuito"
+
+msgid "XXX - Badge 1"
+msgstr "XXX - Distintivo 1"
+
+msgid "XXX - Badge 2"
+msgstr "XXX - Distintivo 2"
+
+msgid "XXX - Badge 3"
+msgstr "XXX - Distintivo 3"
+
+msgid "XXX - Certification 1"
+msgstr "XXX - Certificación 1"
+
+msgid "XXX - Description cert. 1"
+msgstr "XXX - Descripción cert. 1"
+
+msgid "XXX - Certification 2"
+msgstr "XXX - Certificación 2"
+
+msgid "XXX - Description cert. 2"
+msgstr "XXX - Descripción cert. 2"
+
+msgid "XXX - Certification 3"
+msgstr "XXX - Certificación 3"
+
+msgid "XXX - Description cert. 3"
+msgstr "XXX - Descripción cert. 3"
+
+msgid "XXX - Note / 5 ★★★★★"
+msgstr "XXX - Nota / 5 ★★★★★"
+
+msgid "XXX - xxx avis Google"
+msgstr "XXX - xxx reseñas Google"
+
+msgid "XXX - Titre services"
+msgstr "XXX - Título servicios"
+
+msgid "XXX - Sous-titre services"
+msgstr "XXX - Subtítulo servicios"
+
+msgid "XXX - Titre réalisations"
+msgstr "XXX - Título proyectos"
+
+msgid "XXX - Sous-titre réalisations"
+msgstr "XXX - Subtítulo proyectos"
+
+msgid "XXX - Titre équipe"
+msgstr "XXX - Título equipo"
+
+msgid "XXX - Sous-titre équipe"
+msgstr "XXX - Subtítulo equipo"
+
+msgid "XXX - Titre avis clients"
+msgstr "XXX - Título reseñas"
+
+msgid "XXX - Titre contact"
+msgstr "XXX - Título contacto"
+
+msgid "XXX - Sous-titre contact"
+msgstr "XXX - Subtítulo contacto"
+
+msgid "XXX - Horaires lundi-vendredi"
+msgstr "XXX - Horario lun–vie"
+
+msgid "XXX - Horaires samedi"
+msgstr "XXX - Horario sábado"
+
+msgid "XXX - Horaires dimanche"
+msgstr "XXX - Horario domingo"
+
+msgid "XXX - Texte du bouton"
+msgstr "XXX - Texto del botón"
+
+msgid "XXX - Votre téléphone"
+msgstr "XXX - Su teléfono"
+
+msgid "XXX - Votre email"
+msgstr "XXX - Su correo electrónico"
+
+msgid "XXX - Votre zone d'intervention"
+msgstr "XXX - Su zona de intervención"
+
+msgid "XXX - Nom entreprise"
+msgstr "XXX - Nombre de empresa"
+
+msgid "Devis gratuit"
+msgstr "Presupuesto gratuito"
+
+msgid "Demandez un devis gratuit"
+msgstr "Solicitar un presupuesto gratuito"
+
+msgid "Besoin d'un artisan rapidement ?"
+msgstr "¿Necesita un artesano rápidamente?"
+
+msgid "Besoin d'un devis ?"
+msgstr "¿Necesita un presupuesto?"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Fil d'Ariane"
+msgstr "Ruta de navegación"
+
+msgid "%d étoiles sur 5"
+msgstr "%d estrellas sobre 5"
+
+msgid "Demandez un devis similaire"
+msgstr "Solicitar un presupuesto similar"
+
+msgid "Toutes les réalisations"
+msgstr "Todos los proyectos"
+
+msgid "Intervention sur %s."
+msgstr "Intervención en %s."
+
+msgid "[Devis] %s — %s"
+msgstr "[Presupuesto] %s — %s"
+
+msgid "Lire la suite"
+msgstr "Leer más"
+
+msgid "Suivant"
+msgstr "Siguiente"
+
+msgid "Précédent"
+msgstr "Anterior"
+
+msgid "Tous"
+msgstr "Todos"
+
+msgid "Rien à afficher"
+msgstr "Nada que mostrar"
+
+msgid "Corbeille vide"
+msgstr "Papelera vacía"
+
+msgid "Rechercher"
+msgstr "Buscar"
+
+msgid "Résultats pour \"%s\""
+msgstr "Resultados para \"%s\""
+
+msgid "Aucun contenu ne correspond à votre recherche."
+msgstr "Ningún contenido corresponde a su búsqueda."
+
+msgid "Aucun contenu pour le moment"
+msgstr "Sin contenido por el momento"
+
+msgid "Page introuvable"
+msgstr "Página no encontrada"
+
+msgid "Retour à l'accueil"
+msgstr "Volver al inicio"
+
+msgid "La page que vous cherchez n'existe pas ou a été déplacée."
+msgstr "La página que busca no existe o ha sido trasladada."
+
+msgid "Nous trouver"
+msgstr "Encuéntrenos"
+
+msgid "Nous vous recontacterons dans les plus brefs délais."
+msgstr "Nos pondremos en contacto con usted lo antes posible."

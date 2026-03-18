@@ -8,39 +8,38 @@ get_header();
 
 <?php get_template_part( 'template-parts/hero' ); ?>
 
+<?php if ( get_option( 'arti100_show_trust', '1' ) ) : ?>
 <!-- Section confiance / certifications -->
 <section class="trust-strip">
 	<div class="container trust-strip-inner">
+		<?php
+		$trust_icons = [
+			1 => '<span class="material-symbols-outlined trust-icon" aria-hidden="true">verified_user</span>',
+			2 => '<span class="material-symbols-outlined trust-icon" aria-hidden="true">check_circle</span>',
+			3 => '<span class="material-symbols-outlined trust-icon" aria-hidden="true">bolt</span>',
+			4 => '<span class="material-symbols-outlined trust-icon" aria-hidden="true">star</span>',
+		];
+		$trust_defaults = [
+			1 => [ 'title' => __( 'XXX - Certification 1', 'arti100' ),  'desc' => __( 'XXX - Description cert. 1', 'arti100' ) ],
+			2 => [ 'title' => __( 'XXX - Certification 2', 'arti100' ),  'desc' => __( 'XXX - Description cert. 2', 'arti100' ) ],
+			3 => [ 'title' => __( 'XXX - Certification 3', 'arti100' ),  'desc' => __( 'XXX - Description cert. 3', 'arti100' ) ],
+			4 => [ 'title' => __( 'XXX - Note / 5 ★★★★★', 'arti100' ),  'desc' => __( 'XXX - xxx avis Google', 'arti100' ) ],
+		];
+		for ( $i = 1; $i <= 4; $i++ ) :
+			$t_title = get_option( "arti100_trust_{$i}_title", $trust_defaults[ $i ]['title'] );
+			$t_desc  = get_option( "arti100_trust_{$i}_desc",  $trust_defaults[ $i ]['desc'] );
+		?>
 		<div class="trust-item">
-			<svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-accent)" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+			<?php echo $trust_icons[ $i ]; ?>
 			<div>
-				<strong><?php esc_html_e( 'Assuré RC Pro', 'arti100' ); ?></strong>
-				<span><?php esc_html_e( 'Garantie décennale', 'arti100' ); ?></span>
+				<strong><?php echo esc_html( $t_title ); ?></strong>
+				<span><?php echo esc_html( $t_desc ); ?></span>
 			</div>
 		</div>
-		<div class="trust-item">
-			<svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-accent)" aria-hidden="true"><path d="M9 16.17L5.53 12.7a.996.996 0 10-1.41 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71a.996.996 0 10-1.41-1.41L9 16.17z"/></svg>
-			<div>
-				<strong><?php esc_html_e( 'Certifié RGE', 'arti100' ); ?></strong>
-				<span><?php esc_html_e( 'Qualibat / Qualifelec', 'arti100' ); ?></span>
-			</div>
-		</div>
-		<div class="trust-item">
-			<svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-accent)" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm1-13H10v6l5 3 .75-1.23-4.5-2.67V7H13z"/></svg>
-			<div>
-				<strong><?php esc_html_e( 'Intervention rapide', 'arti100' ); ?></strong>
-				<span><?php esc_html_e( 'Urgences 7j/7', 'arti100' ); ?></span>
-			</div>
-		</div>
-		<div class="trust-item">
-			<svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-accent)" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-			<div>
-				<strong>4.9/5 ★★★★★</strong>
-				<span><?php esc_html_e( '120+ avis Google', 'arti100' ); ?></span>
-			</div>
-		</div>
+		<?php endfor; ?>
 	</div>
 </section>
+<?php endif; ?>
 
 <?php get_template_part( 'template-parts/services-section' ); ?>
 <?php get_template_part( 'template-parts/portfolio-section' ); ?>

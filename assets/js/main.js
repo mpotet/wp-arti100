@@ -156,10 +156,18 @@ function arti100CounterAnimation() {
 		entries.forEach(function (entry) {
 			if (!entry.isIntersecting) return;
 			const el     = entry.target;
-			const target = parseInt(el.dataset.count, 10);
+			const raw    = el.dataset.count || '';
+			const target = parseInt(raw, 10);
 			const suffix = el.dataset.suffix || '';
 			const numEl  = el.querySelector('.stat-number');
 			if (!numEl) return;
+
+			// Valeur non numérique (ex : 'XXX') → afficher telle quelle
+			if (isNaN(target)) {
+				numEl.textContent = raw + suffix;
+				observer.unobserve(el);
+				return;
+			}
 
 			let start = 0;
 			const duration = 1800;

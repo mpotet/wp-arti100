@@ -2,18 +2,39 @@
 /**
  * Arti100 — template-parts/team-section.php
  */
+if ( ! get_option( 'arti100_show_equipe', '1' ) ) return;
+
 $query = arti100_get_equipe();
-if ( ! $query->have_posts() ) return;
+$is_empty = ! $query->have_posts();
+
+// Si vide et visiteur non admin → on n'affiche pas la section
+if ( $is_empty && ! current_user_can( 'manage_options' ) ) return;
+
+$titre      = get_option( 'arti100_equipe_titre',      __( 'XXX - Titre équipe', 'arti100' ) );
+$sous_titre = get_option( 'arti100_equipe_sous_titre', __( 'XXX - Sous-titre équipe', 'arti100' ) );
 ?>
 
 <section id="equipe" class="team-section section-padded">
 	<div class="container">
 		<div class="section-header">
 			<span class="section-eyebrow"><?php esc_html_e( 'Notre équipe', 'arti100' ); ?></span>
-			<h2 class="section-title"><?php esc_html_e( 'Des pros à votre service', 'arti100' ); ?></h2>
-			<p class="section-subtitle"><?php esc_html_e( 'Une équipe qualifiée, passionnée et disponible pour tous vos travaux.', 'arti100' ); ?></p>
+			<h2 class="section-title"><?php echo esc_html( $titre ); ?></h2>
+			<?php if ( $sous_titre ) : ?>
+				<p class="section-subtitle"><?php echo esc_html( $sous_titre ); ?></p>
+			<?php endif; ?>
 		</div>
 
+		<?php if ( $is_empty ) : ?>
+			<div class="arti100-empty-notice">
+				<span class="material-symbols-outlined" aria-hidden="true">info</span>
+				<p>
+					<?php esc_html_e( 'Aucun membre d\'équipe publié.', 'arti100' ); ?>
+					<a href="<?php echo esc_url( admin_url( 'edit.php?post_type=artisan' ) ); ?>">
+						<?php esc_html_e( 'Ajouter des artisans →', 'arti100' ); ?>
+					</a>
+				</p>
+			</div>
+		<?php else : ?>
 		<div class="team-grid">
 			<?php while ( $query->have_posts() ) : $query->the_post();
 				$poste    = get_post_meta( get_the_ID(), '_artisan_poste',    true );
@@ -27,7 +48,7 @@ if ( ! $query->have_posts() ) return;
 						<img src="<?php echo esc_url( $photo ); ?>" alt="<?php echo esc_attr( get_the_title() ); ?>" loading="lazy" />
 					<?php else : ?>
 						<div class="team-photo-placeholder">
-							<svg width="64" height="64" viewBox="0 0 24 24" fill="var(--color-gray-300)" aria-hidden="true"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+							<span class="material-symbols-outlined" style="font-size:4rem;color:var(--color-gray-300)" aria-hidden="true">person</span>
 						</div>
 					<?php endif; ?>
 				</div>
@@ -41,12 +62,13 @@ if ( ! $query->have_posts() ) return;
 					<?php endif; ?>
 					<?php if ( $linkedin ) : ?>
 						<a href="<?php echo esc_url( $linkedin ); ?>" target="_blank" rel="noopener noreferrer" class="team-linkedin" aria-label="<?php echo esc_attr( sprintf( __( 'LinkedIn de %s', 'arti100' ), get_the_title() ) ); ?>">
-							<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+							<i class="bi bi-linkedin" aria-hidden="true"></i>
 						</a>
 					<?php endif; ?>
 				</div>
 			</div>
 			<?php endwhile; wp_reset_postdata(); ?>
 		</div>
+		<?php endif; ?>
 	</div>
 </section>

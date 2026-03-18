@@ -1,0 +1,798 @@
+# French (France) translations for Arti100
+# Copyright (C) 2025 Maxim Potet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arti100 1.0.0\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+
+msgid "🏠 Général"
+msgstr "🏠 Général"
+
+msgid "📝 Contenu"
+msgstr "📝 Contenu"
+
+msgid "🔌 Intégrations"
+msgstr "🔌 Intégrations"
+
+msgid "📈 SEO & Footer"
+msgstr "📈 SEO & Footer"
+
+msgid "Arti100 Settings"
+msgstr "Arti100 Settings"
+
+msgid "Arti100 — Paramètres du thème"
+msgstr "Arti100 — Paramètres du thème"
+
+msgid "⚙️ Arti100"
+msgstr "⚙️ Arti100"
+
+msgid "Enregistrer les paramètres"
+msgstr "Enregistrer les paramètres"
+
+msgid "✅ Paramètres sauvegardés."
+msgstr "✅ Paramètres sauvegardés."
+
+msgid "Choisir image"
+msgstr "Choisir image"
+
+msgid "Afficher"
+msgstr "Afficher"
+
+msgid "Menu principal"
+msgstr "Menu principal"
+
+msgid "Menu pied de page"
+msgstr "Menu pied de page"
+
+msgid "Barre latérale"
+msgstr "Barre latérale"
+
+msgid "Footer colonne 1"
+msgstr "Footer colonne 1"
+
+msgid "Aller au contenu"
+msgstr "Aller au contenu"
+
+msgid "Ouvrir le menu"
+msgstr "Ouvrir le menu"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Accueil"
+msgstr "Accueil"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Réalisations"
+msgstr "Réalisations"
+
+msgid "Équipe"
+msgstr "Équipe"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Actualités"
+msgstr "Actualités"
+
+msgid "🦸 Hero Section"
+msgstr "🦸 Hero Section"
+
+msgid "Titre principal"
+msgstr "Titre principal"
+
+msgid "Sous-titre"
+msgstr "Sous-titre"
+
+msgid "Texte CTA bouton"
+msgstr "Texte CTA bouton"
+
+msgid "Image fond hero (URL)"
+msgstr "Image fond hero (URL)"
+
+msgid "Utilisez \n pour couper la ligne."
+msgstr "Utilisez \n pour couper la ligne."
+
+msgid "Certifié RGE"
+msgstr "Certifié RGE"
+
+msgid "Assuré RC Pro"
+msgstr "Assuré RC Pro"
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Demander un devis gratuit"
+msgstr "Demander un devis gratuit"
+
+msgid "Chantiers réalisés"
+msgstr "Chantiers réalisés"
+
+msgid "D'expérience"
+msgstr "D'expérience"
+
+msgid "Clients satisfaits"
+msgstr "Clients satisfaits"
+
+msgid "Note Google"
+msgstr "Note Google"
+
+msgid "Badge 1 (icône ✅)"
+msgstr "Badge 1 (icône ✅)"
+
+msgid "Badge 2 (icône 🛡️)"
+msgstr "Badge 2 (icône 🛡️)"
+
+msgid "Badge 3 (icône 📍)"
+msgstr "Badge 3 (icône 📍)"
+
+msgid "Laissez vide pour masquer."
+msgstr "Laissez vide pour masquer."
+
+msgid "Vide → utilise la Zone d'intervention (Général)."
+msgstr "Vide → utilise la Zone d'intervention (Général)."
+
+msgid "Appeler"
+msgstr "Appeler"
+
+msgid "🏅 Bande de confiance (4 éléments)"
+msgstr "🏅 Bande de confiance (4 éléments)"
+
+msgid "Bande de confiance (Trust strip)"
+msgstr "Bande de confiance (Trust strip)"
+
+msgid "Élément %d"
+msgstr "Élément %d"
+
+msgid "Titre"
+msgstr "Titre"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "📊 Statistiques (hero)"
+msgstr "📊 Statistiques (hero)"
+
+msgid "Stat %d"
+msgstr "Stat %d"
+
+msgid "Valeur"
+msgstr "Valeur"
+
+msgid "Suffixe"
+msgstr "Suffixe"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Ex : +, %, \" ans\", \"/5\""
+msgstr "Ex : +, %, \" ans\", \"/5\""
+
+msgid "🏢 Informations entreprise"
+msgstr "🏢 Informations entreprise"
+
+msgid "Nom entreprise"
+msgstr "Nom entreprise"
+
+msgid "Slogan"
+msgstr "Slogan"
+
+msgid "Artisan qualifié près de chez vous."
+msgstr "Artisan qualifié près de chez vous."
+
+msgid "Métier principal"
+msgstr "Métier principal"
+
+msgid "Téléphone"
+msgstr "Téléphone"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Adresse"
+msgstr "Adresse"
+
+msgid "Zone intervention"
+msgstr "Zone intervention"
+
+msgid "Zone d'intervention"
+msgstr "Zone d'intervention"
+
+msgid "SIRET"
+msgstr "SIRET"
+
+msgid "SIRET :"
+msgstr "SIRET :"
+
+msgid "Tous droits réservés"
+msgstr "Tous droits réservés"
+
+msgid "Mentions légales"
+msgstr "Mentions légales"
+
+msgid "Confidentialité"
+msgstr "Confidentialité"
+
+msgid "🖼️ Logo & Couleurs"
+msgstr "🖼️ Logo & Couleurs"
+
+msgid "URL du logo"
+msgstr "URL du logo"
+
+msgid "Couleur primaire"
+msgstr "Couleur primaire"
+
+msgid "Couleur accent (orange)"
+msgstr "Couleur accent (orange)"
+
+msgid "📱 Réseaux sociaux"
+msgstr "📱 Réseaux sociaux"
+
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+msgid "👁️ Affichage des sections"
+msgstr "👁️ Affichage des sections"
+
+msgid "Cochez pour afficher une section sur la page d'accueil."
+msgstr "Cochez pour afficher une section sur la page d'accueil."
+
+msgid "✏️ Titres & sous-titres des sections"
+msgstr "✏️ Titres & sous-titres des sections"
+
+msgid "🔧 Services"
+msgstr "🔧 Services"
+
+msgid "🏗️ Réalisations"
+msgstr "🏗️ Réalisations"
+
+msgid "👷 Équipe"
+msgstr "👷 Équipe"
+
+msgid "⭐ Témoignages"
+msgstr "⭐ Témoignages"
+
+msgid "📬 Contact"
+msgstr "📬 Contact"
+
+msgid "Note globale (ex: 4.9)"
+msgstr "Note globale (ex: 4.9)"
+
+msgid "🕐 Horaires d'ouverture"
+msgstr "🕐 Horaires d'ouverture"
+
+msgid "Lundi – Vendredi"
+msgstr "Lundi – Vendredi"
+
+msgid "Lun – Ven"
+msgstr "Lun – Ven"
+
+msgid "Samedi"
+msgstr "Samedi"
+
+msgid "Dimanche"
+msgstr "Dimanche"
+
+msgid "Fermé"
+msgstr "Fermé"
+
+msgid "Horaires"
+msgstr "Horaires"
+
+msgid "📞 Mode de contact"
+msgstr "📞 Mode de contact"
+
+msgid "Choisissez comment les visiteurs peuvent vous contacter. Dans les deux cas, le téléphone, l'email et les horaires sont affichés."
+msgstr "Choisissez comment les visiteurs peuvent vous contacter. Dans les deux cas, le téléphone, l'email et les horaires sont affichés."
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Texte uniquement — affiche téléphone, email et horaires"
+msgstr "Texte uniquement — affiche téléphone, email et horaires"
+
+msgid "Lien externe — ajoute un bouton vers un site de RDV / contact"
+msgstr "Lien externe — ajoute un bouton vers un site de RDV / contact"
+
+msgid "URL du lien (mode Lien)"
+msgstr "URL du lien (mode Lien)"
+
+msgid "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+msgstr "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+
+msgid "Texte du bouton (mode Lien)"
+msgstr "Texte du bouton (mode Lien)"
+
+msgid "💬 Témoignages clients (6 max)"
+msgstr "💬 Témoignages clients (6 max)"
+
+msgid "Ces témoignages s'affichent si aucun avis n'est renseigné dans les Réalisations (CPT). Laissez le texte vide pour masquer un témoignage."
+msgstr "Ces témoignages s'affichent si aucun avis n'est renseigné dans les Réalisations (CPT). Laissez le texte vide pour masquer un témoignage."
+
+msgid "Témoignage %d"
+msgstr "Témoignage %d"
+
+msgid "Nom"
+msgstr "Nom"
+
+msgid "Localité"
+msgstr "Localité"
+
+msgid "Texte"
+msgstr "Texte"
+
+msgid "Note (1-5)"
+msgstr "Note (1-5)"
+
+msgid "Témoignages clients"
+msgstr "Témoignages clients"
+
+msgid "Témoin client"
+msgstr "Témoin client"
+
+msgid "📅 Prise de RDV Calendly"
+msgstr "📅 Prise de RDV Calendly"
+
+msgid "URL Calendly"
+msgstr "URL Calendly"
+
+msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
+msgstr "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
+
+msgid "📧 Contact Form 7 (ID du formulaire)"
+msgstr "📧 Contact Form 7 (ID du formulaire)"
+
+msgid "ID du formulaire CF7"
+msgstr "ID du formulaire CF7"
+
+msgid "Trouvez l'ID dans Contact → Formulaires de contact."
+msgstr "Trouvez l'ID dans Contact → Formulaires de contact."
+
+msgid "📊 Google Analytics"
+msgstr "📊 Google Analytics"
+
+msgid "GA4 Measurement ID"
+msgstr "GA4 Measurement ID"
+
+msgid "🗺️ Google Maps"
+msgstr "🗺️ Google Maps"
+
+msgid "Code embed iframe"
+msgstr "Code embed iframe"
+
+msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
+msgstr "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
+
+msgid "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
+msgstr "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
+
+msgid "🔍 Meta SEO"
+msgstr "🔍 Meta SEO"
+
+msgid "Meta description homepage"
+msgstr "Meta description homepage"
+
+msgid "Image Open Graph"
+msgstr "Image Open Graph"
+
+msgid "📄 Pied de page légal"
+msgstr "📄 Pied de page légal"
+
+msgid "Texte pied de page"
+msgstr "Texte pied de page"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Nouveau service"
+msgstr "Nouveau service"
+
+msgid "Modifier le service"
+msgstr "Modifier le service"
+
+msgid "Détails du service"
+msgstr "Détails du service"
+
+msgid "Ajouter un service"
+msgstr "Ajouter un service"
+
+msgid "Toutes nos prestations"
+msgstr "Toutes nos prestations"
+
+msgid "Aucun service trouvé."
+msgstr "Aucun service trouvé."
+
+msgid "Aucun service configuré. Allez dans Services → Ajouter un service."
+msgstr "Aucun service configuré. Allez dans Services → Ajouter un service."
+
+msgid "Prix indicatif"
+msgstr "Prix indicatif"
+
+msgid "Durée indicative"
+msgstr "Durée indicative"
+
+msgid "Icône (SVG inline ou emoji)"
+msgstr "Icône (SVG inline ou emoji)"
+
+msgid "Ordre d'affichage"
+msgstr "Ordre d'affichage"
+
+msgid "Réalisations / Portfolio"
+msgstr "Réalisations / Portfolio"
+
+msgid "Travaux"
+msgstr "Travaux"
+
+msgid "Travail"
+msgstr "Travail"
+
+msgid "Nouveau chantier"
+msgstr "Nouveau chantier"
+
+msgid "Modifier le chantier"
+msgstr "Modifier le chantier"
+
+msgid "Voir le chantier"
+msgstr "Voir le chantier"
+
+msgid "Ajouter un chantier"
+msgstr "Ajouter un chantier"
+
+msgid "Détails du chantier"
+msgstr "Détails du chantier"
+
+msgid "Aucun chantier trouvé"
+msgstr "Aucun chantier trouvé"
+
+msgid "Aucune réalisation trouvée."
+msgstr "Aucune réalisation trouvée."
+
+msgid "Aucune réalisation pour le moment. Revenez bientôt !"
+msgstr "Aucune réalisation pour le moment. Revenez bientôt !"
+
+msgid "Photo AVANT (URL)"
+msgstr "Photo AVANT (URL)"
+
+msgid "Photo APRÈS (URL)"
+msgstr "Photo APRÈS (URL)"
+
+msgid "Durée chantier"
+msgstr "Durée chantier"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Types de travaux"
+msgstr "Types de travaux"
+
+msgid "Membre"
+msgstr "Membre"
+
+msgid "Ajouter un membre"
+msgstr "Ajouter un membre"
+
+msgid "Profil du membre"
+msgstr "Profil du membre"
+
+msgid "Poste / Métier"
+msgstr "Poste / Métier"
+
+msgid "Bio courte"
+msgstr "Bio courte"
+
+msgid "LinkedIn de %s"
+msgstr "LinkedIn de %s"
+
+msgid "Téléphone direct"
+msgstr "Téléphone direct"
+
+msgid "Ce que nous faisons"
+msgstr "Ce que nous faisons"
+
+msgid "Nos services"
+msgstr "Nos services"
+
+msgid "Des prestations professionnelles pour tous vos travaux, réalisées avec soin et garanties."
+msgstr "Des prestations professionnelles pour tous vos travaux, réalisées avec soin et garanties."
+
+msgid "En savoir plus sur %s"
+msgstr "En savoir plus sur %s"
+
+msgid "En savoir plus"
+msgstr "En savoir plus"
+
+msgid "Obtenir un devis gratuit"
+msgstr "Obtenir un devis gratuit"
+
+msgid "Aucun service publié."
+msgstr "Aucun service publié."
+
+msgid "Ajouter des services →"
+msgstr "Ajouter des services →"
+
+msgid "Nos réalisations"
+msgstr "Nos réalisations"
+
+msgid "Nos chantiers"
+msgstr "Nos chantiers"
+
+msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
+msgstr "Découvrez nos derniers travaux réalisés avec professionnalisme."
+
+msgid "Avant travaux — %s"
+msgstr "Avant travaux — %s"
+
+msgid "Après travaux — %s"
+msgstr "Après travaux — %s"
+
+msgid "Avant"
+msgstr "Avant"
+
+msgid "Après"
+msgstr "Après"
+
+msgid "Curseur avant/après"
+msgstr "Curseur avant/après"
+
+msgid "Voir le détail"
+msgstr "Voir le détail"
+
+msgid "Voir toutes les réalisations"
+msgstr "Voir toutes les réalisations"
+
+msgid "Aucune réalisation publiée."
+msgstr "Aucune réalisation publiée."
+
+msgid "Ajouter des réalisations →"
+msgstr "Ajouter des réalisations →"
+
+msgid "Notre équipe"
+msgstr "Notre équipe"
+
+msgid "Des pros à votre service"
+msgstr "Des pros à votre service"
+
+msgid "Une équipe qualifiée, passionnée et disponible pour tous vos travaux."
+msgstr "Une équipe qualifiée, passionnée et disponible pour tous vos travaux."
+
+msgid "Aucun membre d'équipe publié."
+msgstr "Aucun membre d'équipe publié."
+
+msgid "Ajouter des artisans →"
+msgstr "Ajouter des artisans →"
+
+msgid "Ils nous font confiance"
+msgstr "Ils nous font confiance"
+
+msgid "Avis de nos clients"
+msgstr "Avis de nos clients"
+
+msgid "sur Google"
+msgstr "sur Google"
+
+msgid "Aucun témoignage configuré."
+msgstr "Aucun témoignage configuré."
+
+msgid "Ajouter des témoignages →"
+msgstr "Ajouter des témoignages →"
+
+msgid "ou publier des réalisations avec un avis client."
+msgstr "ou publier des réalisations avec un avis client."
+
+msgid "Contactez-nous"
+msgstr "Contactez-nous"
+
+msgid "Nos coordonnées"
+msgstr "Nos coordonnées"
+
+msgid "Texte de présentation"
+msgstr "Texte de présentation"
+
+msgid "Texte libre affiché sous le titre, au-dessus des coordonnées. Laissez vide pour masquer."
+msgstr "Texte libre affiché sous le titre, au-dessus des coordonnées. Laissez vide pour masquer."
+
+msgid "Demandez votre devis gratuit"
+msgstr "Demandez votre devis gratuit"
+
+msgid "Réponse sous 24h · Devis gratuit et sans engagement"
+msgstr "Réponse sous 24h · Devis gratuit et sans engagement"
+
+msgid "Contactez-nous directement"
+msgstr "Contactez-nous directement"
+
+msgid "Prendre rendez-vous en ligne"
+msgstr "Prendre rendez-vous en ligne"
+
+msgid "Mode « Lien » activé mais aucune URL configurée."
+msgstr "Mode « Lien » activé mais aucune URL configurée."
+
+msgid "Configurer →"
+msgstr "Configurer →"
+
+msgid "Contactez-nous gratuitement, sans engagement."
+msgstr "Contactez-nous gratuitement, sans engagement."
+
+msgid "Contactez-nous dès aujourd'hui."
+msgstr "Contactez-nous dès aujourd'hui."
+
+msgid "XXX - Votre titre principal"
+msgstr "XXX - Votre titre principal"
+
+msgid "XXX - Votre sous-titre descriptif · Devis gratuit"
+msgstr "XXX - Votre sous-titre descriptif · Devis gratuit"
+
+msgid "XXX - Badge 1"
+msgstr "XXX - Badge 1"
+
+msgid "XXX - Badge 2"
+msgstr "XXX - Badge 2"
+
+msgid "XXX - Badge 3"
+msgstr "XXX - Badge 3"
+
+msgid "XXX - Certification 1"
+msgstr "XXX - Certification 1"
+
+msgid "XXX - Description cert. 1"
+msgstr "XXX - Description cert. 1"
+
+msgid "XXX - Certification 2"
+msgstr "XXX - Certification 2"
+
+msgid "XXX - Description cert. 2"
+msgstr "XXX - Description cert. 2"
+
+msgid "XXX - Certification 3"
+msgstr "XXX - Certification 3"
+
+msgid "XXX - Description cert. 3"
+msgstr "XXX - Description cert. 3"
+
+msgid "XXX - Note / 5 ★★★★★"
+msgstr "XXX - Note / 5 ★★★★★"
+
+msgid "XXX - xxx avis Google"
+msgstr "XXX - xxx avis Google"
+
+msgid "XXX - Titre services"
+msgstr "XXX - Titre services"
+
+msgid "XXX - Sous-titre services"
+msgstr "XXX - Sous-titre services"
+
+msgid "XXX - Titre réalisations"
+msgstr "XXX - Titre réalisations"
+
+msgid "XXX - Sous-titre réalisations"
+msgstr "XXX - Sous-titre réalisations"
+
+msgid "XXX - Titre équipe"
+msgstr "XXX - Titre équipe"
+
+msgid "XXX - Sous-titre équipe"
+msgstr "XXX - Sous-titre équipe"
+
+msgid "XXX - Titre avis clients"
+msgstr "XXX - Titre avis clients"
+
+msgid "XXX - Titre contact"
+msgstr "XXX - Titre contact"
+
+msgid "XXX - Sous-titre contact"
+msgstr "XXX - Sous-titre contact"
+
+msgid "XXX - Horaires lundi-vendredi"
+msgstr "XXX - Horaires lundi-vendredi"
+
+msgid "XXX - Horaires samedi"
+msgstr "XXX - Horaires samedi"
+
+msgid "XXX - Horaires dimanche"
+msgstr "XXX - Horaires dimanche"
+
+msgid "XXX - Texte du bouton"
+msgstr "XXX - Texte du bouton"
+
+msgid "XXX - Votre téléphone"
+msgstr "XXX - Votre téléphone"
+
+msgid "XXX - Votre email"
+msgstr "XXX - Votre email"
+
+msgid "XXX - Votre zone d'intervention"
+msgstr "XXX - Votre zone d'intervention"
+
+msgid "XXX - Nom entreprise"
+msgstr "XXX - Nom entreprise"
+
+msgid "Devis gratuit"
+msgstr "Devis gratuit"
+
+msgid "Demandez un devis gratuit"
+msgstr "Demandez un devis gratuit"
+
+msgid "Besoin d'un artisan rapidement ?"
+msgstr "Besoin d'un artisan rapidement ?"
+
+msgid "Besoin d'un devis ?"
+msgstr "Besoin d'un devis ?"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Fil d'Ariane"
+msgstr "Fil d'Ariane"
+
+msgid "%d étoiles sur 5"
+msgstr "%d étoiles sur 5"
+
+msgid "Demandez un devis similaire"
+msgstr "Demandez un devis similaire"
+
+msgid "Toutes les réalisations"
+msgstr "Toutes les réalisations"
+
+msgid "Intervention sur %s."
+msgstr "Intervention sur %s."
+
+msgid "[Devis] %s — %s"
+msgstr "[Devis] %s — %s"
+
+msgid "Lire la suite"
+msgstr "Lire la suite"
+
+msgid "Suivant"
+msgstr "Suivant"
+
+msgid "Précédent"
+msgstr "Précédent"
+
+msgid "Tous"
+msgstr "Tous"
+
+msgid "Rien à afficher"
+msgstr "Rien à afficher"
+
+msgid "Corbeille vide"
+msgstr "Corbeille vide"
+
+msgid "Rechercher"
+msgstr "Rechercher"
+
+msgid "Résultats pour \"%s\""
+msgstr "Résultats pour \"%s\""
+
+msgid "Aucun contenu ne correspond à votre recherche."
+msgstr "Aucun contenu ne correspond à votre recherche."
+
+msgid "Aucun contenu pour le moment"
+msgstr "Aucun contenu pour le moment"
+
+msgid "Page introuvable"
+msgstr "Page introuvable"
+
+msgid "Retour à l'accueil"
+msgstr "Retour à l'accueil"
+
+msgid "La page que vous cherchez n'existe pas ou a été déplacée."
+msgstr "La page que vous cherchez n'existe pas ou a été déplacée."
+
+msgid "Nous trouver"
+msgstr "Nous trouver"
+
+msgid "Nous vous recontacterons dans les plus brefs délais."
+msgstr "Nous vous recontacterons dans les plus brefs délais."

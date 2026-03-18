@@ -1,0 +1,733 @@
+# Copyright (C) 2025 Maxim Potet
+# This file is distributed under the GNU General Public License v2 or later.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arti100 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/admin-settings.php
+msgid "Arti100 Settings"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "⚙️ Arti100"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Arti100 — Paramètres du thème"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🏠 Général"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📝 Contenu"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🔌 Intégrations"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📈 SEO & Footer"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Enregistrer les paramètres"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "✅ Paramètres sauvegardés."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "💡 Les champs marqués XXX sont des exemples à remplacer par vos vraies informations."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🏢 Informations entreprise"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Nom entreprise"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Slogan"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Métier principal"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Téléphone"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Email"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Adresse"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Zone intervention"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "SIRET"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🖼️ Logo & Couleurs"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "URL du logo"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Choisir image"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Couleur primaire"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Couleur accent (orange)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🦸 Hero Section"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Titre principal"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Utilisez \\n pour couper la ligne."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Sous-titre"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Texte CTA bouton"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Image fond hero (URL)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📱 Réseaux sociaux"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "👁️ Affichage des sections"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Cochez pour afficher une section sur la page d'accueil."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Bande de confiance (Trust strip)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Services"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Réalisations / Portfolio"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Équipe"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Témoignages clients"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Afficher"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🏅 Bande de confiance (4 éléments)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Élément %d"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Titre"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Description"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📊 Statistiques (hero)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Stat %d"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Valeur"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Suffixe"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Ex : +, %, \" ans\", \"/5\""
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Label"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "✏️ Titres & sous-titres des sections"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🔧 Services"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🏗️ Réalisations"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "👷 Équipe"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "⭐ Témoignages"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Note globale (ex: 4.9)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📬 Contact"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🕐 Horaires d'ouverture"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Lundi – Vendredi"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Samedi"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Dimanche"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Fermé"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "💬 Témoignages clients (6 max)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Ces témoignages s'affichent si aucun avis n'est renseigné dans les Réalisations (CPT). Laissez le texte vide pour masquer un témoignage."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Témoignage %d"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Nom"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Localité"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Texte"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Note (1-5)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📅 Prise de RDV Calendly"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "URL Calendly"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📧 Contact Form 7 (ID du formulaire)"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "ID du formulaire CF7"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Trouvez l'ID dans Contact → Formulaires de contact."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🗺️ Google Maps"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Code embed iframe"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📊 Google Analytics"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "GA4 Measurement ID"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "🔍 Meta SEO"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Meta description homepage"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Image Open Graph"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "📄 Pied de page légal"
+msgstr ""
+
+#: inc/admin-settings.php
+msgid "Texte pied de page"
+msgstr ""
+
+#: functions.php
+msgid "Menu principal"
+msgstr ""
+
+#: functions.php
+msgid "Menu pied de page"
+msgstr ""
+
+#: functions.php
+msgid "Barre latérale"
+msgstr ""
+
+#: functions.php
+msgid "Footer colonne 1"
+msgstr ""
+
+#: header.php
+msgid "Aller au contenu"
+msgstr ""
+
+#: header.php
+msgid "Devis gratuit"
+msgstr ""
+
+#: header.php
+msgid "Ouvrir le menu"
+msgstr ""
+
+#: header.php
+msgid "Accueil"
+msgstr ""
+
+#: header.php footer.php
+msgid "Services"
+msgstr ""
+
+#: header.php footer.php
+msgid "Réalisations"
+msgstr ""
+
+#: header.php
+msgid "Équipe"
+msgstr ""
+
+#: header.php footer.php
+msgid "Contact"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Certifié RGE"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Assuré RC Pro"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Local"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Demander un devis gratuit"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Chantiers réalisés"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "D'expérience"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Clients satisfaits"
+msgstr ""
+
+#: template-parts/hero.php
+msgid "Note Google"
+msgstr ""
+
+#: front-page.php
+msgid "Garantie décennale"
+msgstr ""
+
+#: front-page.php
+msgid "Qualibat / Qualifelec"
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "Ce que nous faisons"
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "Nos services"
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "Des prestations professionnelles pour tous vos travaux, réalisées avec soin et garanties."
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "En savoir plus sur %s"
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "En savoir plus"
+msgstr ""
+
+#: template-parts/services-section.php
+msgid "Obtenir un devis gratuit"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Nos réalisations"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Nos chantiers"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Avant travaux — %s"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Après travaux — %s"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Avant"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Après"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Curseur avant/après"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Voir le détail"
+msgstr ""
+
+#: template-parts/portfolio-section.php
+msgid "Voir toutes les réalisations"
+msgstr ""
+
+#: template-parts/team-section.php
+msgid "Notre équipe"
+msgstr ""
+
+#: template-parts/team-section.php
+msgid "Des pros à votre service"
+msgstr ""
+
+#: template-parts/team-section.php
+msgid "Une équipe qualifiée, passionnée et disponible pour tous vos travaux."
+msgstr ""
+
+#: template-parts/team-section.php
+msgid "LinkedIn de %s"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Ils nous font confiance"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Avis de nos clients"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "sur Google"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Nantes"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Vallet"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Ancenis"
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Intervention très rapide, travail soigné. Je recommande vivement cet artisan sérieux et professionnel."
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Devis clair, délais respectés, résultat impeccable. Équipe sympathique et compétente."
+msgstr ""
+
+#: template-parts/testimonials-section.php
+msgid "Excellent rapport qualité-prix. Je ferai à nouveau appel à eux sans hésitation."
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Contactez-nous"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Demandez votre devis gratuit"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Réponse sous 24h · Devis gratuit et sans engagement"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Prénom & Nom *"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Téléphone *"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Email"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Type de travaux"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Choisir..."
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Autre / Non listé"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Décrivez votre projet *"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Décrivez vos travaux, la surface, l'urgence…"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Envoyer ma demande de devis"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Vos données sont confidentielles et ne seront pas partagées."
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Contactez-nous directement"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Téléphone"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Zone d'intervention"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Horaires"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Lun – Ven"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Dimanche"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "Prendre rendez-vous en ligne"
+msgstr ""
+
+#: template-parts/contact-section.php
+msgid "[Devis] %s — %s"
+msgstr ""
+
+#: footer.php
+msgid "Besoin d'un artisan rapidement ?"
+msgstr ""
+
+#: footer.php
+msgid "Devis gratuit"
+msgstr ""
+
+#: footer.php
+msgid "Nos services"
+msgstr ""
+
+#: footer.php
+msgid "Navigation"
+msgstr ""
+
+#: footer.php
+msgid "Zone d'intervention"
+msgstr ""
+
+#: footer.php
+msgid "Tous droits réservés"
+msgstr ""
+
+#: footer.php
+msgid "SIRET :"
+msgstr ""
+
+#: footer.php
+msgid "Mentions légales"
+msgstr ""
+
+#: footer.php
+msgid "Confidentialité"
+msgstr ""
+
+#: footer.php
+msgid "Admin"
+msgstr ""
+
+#: inc/template-functions.php
+msgid "Fil d'Ariane"
+msgstr ""
+
+#: inc/template-functions.php
+msgid "%d étoiles sur 5"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Réalisations"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Réalisation"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Toutes les réalisations"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Ajouter une réalisation"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Services"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Service"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Équipe"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Artisan"
+msgstr ""
+
+#: inc/cpt.php
+msgid "Types de travaux"
+msgstr ""

@@ -1,0 +1,798 @@
+# English (US) translations for Arti100
+# Copyright (C) 2025 Maxim Potet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arti100 1.0.0\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "🏠 Général"
+msgstr "🏠 General"
+
+msgid "📝 Contenu"
+msgstr "📝 Content"
+
+msgid "🔌 Intégrations"
+msgstr "🔌 Integrations"
+
+msgid "📈 SEO & Footer"
+msgstr "📈 SEO & Footer"
+
+msgid "Arti100 Settings"
+msgstr "Arti100 Settings"
+
+msgid "Arti100 — Paramètres du thème"
+msgstr "Arti100 — Theme Settings"
+
+msgid "⚙️ Arti100"
+msgstr "⚙️ Arti100"
+
+msgid "Enregistrer les paramètres"
+msgstr "Save Settings"
+
+msgid "✅ Paramètres sauvegardés."
+msgstr "✅ Settings saved."
+
+msgid "Choisir image"
+msgstr "Choose image"
+
+msgid "Afficher"
+msgstr "Show"
+
+msgid "Menu principal"
+msgstr "Main Menu"
+
+msgid "Menu pied de page"
+msgstr "Footer Menu"
+
+msgid "Barre latérale"
+msgstr "Sidebar"
+
+msgid "Footer colonne 1"
+msgstr "Footer Column 1"
+
+msgid "Aller au contenu"
+msgstr "Skip to content"
+
+msgid "Ouvrir le menu"
+msgstr "Open menu"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "Accueil"
+msgstr "Home"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Réalisations"
+msgstr "Projects"
+
+msgid "Équipe"
+msgstr "Team"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Actualités"
+msgstr "News"
+
+msgid "🦸 Hero Section"
+msgstr "🦸 Hero Section"
+
+msgid "Titre principal"
+msgstr "Main title"
+
+msgid "Sous-titre"
+msgstr "Subtitle"
+
+msgid "Texte CTA bouton"
+msgstr "CTA button text"
+
+msgid "Image fond hero (URL)"
+msgstr "Hero background image (URL)"
+
+msgid "Utilisez \n pour couper la ligne."
+msgstr "Use \n for line breaks."
+
+msgid "Certifié RGE"
+msgstr "RGE Certified"
+
+msgid "Assuré RC Pro"
+msgstr "Insured RC Pro"
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Demander un devis gratuit"
+msgstr "Get a free quote"
+
+msgid "Chantiers réalisés"
+msgstr "Completed projects"
+
+msgid "D'expérience"
+msgstr "Experience"
+
+msgid "Clients satisfaits"
+msgstr "Satisfied clients"
+
+msgid "Note Google"
+msgstr "Google rating"
+
+msgid "Badge 1 (icône ✅)"
+msgstr "Badge 1 (icon ✅)"
+
+msgid "Badge 2 (icône 🛡️)"
+msgstr "Badge 2 (icon 🛡️)"
+
+msgid "Badge 3 (icône 📍)"
+msgstr "Badge 3 (icon 📍)"
+
+msgid "Laissez vide pour masquer."
+msgstr "Leave empty to hide."
+
+msgid "Vide → utilise la Zone d'intervention (Général)."
+msgstr "Empty → uses the Service zone (General tab)."
+
+msgid "Appeler"
+msgstr "Call"
+
+msgid "🏅 Bande de confiance (4 éléments)"
+msgstr "🏅 Trust strip (4 items)"
+
+msgid "Bande de confiance (Trust strip)"
+msgstr "Trust strip"
+
+msgid "Élément %d"
+msgstr "Item %d"
+
+msgid "Titre"
+msgstr "Title"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "📊 Statistiques (hero)"
+msgstr "📊 Statistics (hero)"
+
+msgid "Stat %d"
+msgstr "Stat %d"
+
+msgid "Valeur"
+msgstr "Value"
+
+msgid "Suffixe"
+msgstr "Suffix"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Ex : +, %, \" ans\", \"/5\""
+msgstr "e.g. +, %, \" yrs\", \"/5\""
+
+msgid "🏢 Informations entreprise"
+msgstr "🏢 Company information"
+
+msgid "Nom entreprise"
+msgstr "Company name"
+
+msgid "Slogan"
+msgstr "Slogan"
+
+msgid "Artisan qualifié près de chez vous."
+msgstr "Qualified craftsman near you."
+
+msgid "Métier principal"
+msgstr "Main trade"
+
+msgid "Téléphone"
+msgstr "Phone"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Adresse"
+msgstr "Address"
+
+msgid "Zone intervention"
+msgstr "Service zone"
+
+msgid "Zone d'intervention"
+msgstr "Service area"
+
+msgid "SIRET"
+msgstr "SIRET"
+
+msgid "SIRET :"
+msgstr "SIRET:"
+
+msgid "Tous droits réservés"
+msgstr "All rights reserved"
+
+msgid "Mentions légales"
+msgstr "Legal notice"
+
+msgid "Confidentialité"
+msgstr "Privacy"
+
+msgid "🖼️ Logo & Couleurs"
+msgstr "🖼️ Logo & Colors"
+
+msgid "URL du logo"
+msgstr "Logo URL"
+
+msgid "Couleur primaire"
+msgstr "Primary color"
+
+msgid "Couleur accent (orange)"
+msgstr "Accent color (orange)"
+
+msgid "📱 Réseaux sociaux"
+msgstr "📱 Social media"
+
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+msgid "👁️ Affichage des sections"
+msgstr "👁️ Section visibility"
+
+msgid "Cochez pour afficher une section sur la page d'accueil."
+msgstr "Check to show a section on the homepage."
+
+msgid "✏️ Titres & sous-titres des sections"
+msgstr "✏️ Section titles & subtitles"
+
+msgid "🔧 Services"
+msgstr "🔧 Services"
+
+msgid "🏗️ Réalisations"
+msgstr "🏗️ Projects"
+
+msgid "👷 Équipe"
+msgstr "👷 Team"
+
+msgid "⭐ Témoignages"
+msgstr "⭐ Testimonials"
+
+msgid "📬 Contact"
+msgstr "📬 Contact"
+
+msgid "Note globale (ex: 4.9)"
+msgstr "Overall rating (e.g. 4.9)"
+
+msgid "🕐 Horaires d'ouverture"
+msgstr "🕐 Opening hours"
+
+msgid "Lundi – Vendredi"
+msgstr "Monday – Friday"
+
+msgid "Lun – Ven"
+msgstr "Mon – Fri"
+
+msgid "Samedi"
+msgstr "Saturday"
+
+msgid "Dimanche"
+msgstr "Sunday"
+
+msgid "Fermé"
+msgstr "Closed"
+
+msgid "Horaires"
+msgstr "Opening hours"
+
+msgid "📞 Mode de contact"
+msgstr "📞 Contact mode"
+
+msgid "Choisissez comment les visiteurs peuvent vous contacter. Dans les deux cas, le téléphone, l'email et les horaires sont affichés."
+msgstr "Choose how visitors can contact you. In both cases, phone, email and hours are displayed."
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Texte uniquement — affiche téléphone, email et horaires"
+msgstr "Text only — displays phone, email and opening hours"
+
+msgid "Lien externe — ajoute un bouton vers un site de RDV / contact"
+msgstr "External link — adds a button to an appointment / contact site"
+
+msgid "URL du lien (mode Lien)"
+msgstr "Link URL (Link mode)"
+
+msgid "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+msgstr "Calendly, Doctolib, WhatsApp, Google Forms, etc."
+
+msgid "Texte du bouton (mode Lien)"
+msgstr "Button text (Link mode)"
+
+msgid "💬 Témoignages clients (6 max)"
+msgstr "💬 Customer testimonials (6 max)"
+
+msgid "Ces témoignages s'affichent si aucun avis n'est renseigné dans les Réalisations (CPT). Laissez le texte vide pour masquer un témoignage."
+msgstr "These testimonials are shown if no review is set in Projects (CPT). Leave the text empty to hide a testimonial."
+
+msgid "Témoignage %d"
+msgstr "Testimonial %d"
+
+msgid "Nom"
+msgstr "Name"
+
+msgid "Localité"
+msgstr "City / Area"
+
+msgid "Texte"
+msgstr "Text"
+
+msgid "Note (1-5)"
+msgstr "Rating (1-5)"
+
+msgid "Témoignages clients"
+msgstr "Customer testimonials"
+
+msgid "Témoin client"
+msgstr "Customer"
+
+msgid "📅 Prise de RDV Calendly"
+msgstr "📅 Calendly Appointment Booking"
+
+msgid "URL Calendly"
+msgstr "Calendly URL"
+
+msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
+msgstr "Your personal Calendly link. A popup will open when clicking \"Book an appointment\"."
+
+msgid "📧 Contact Form 7 (ID du formulaire)"
+msgstr "📧 Contact Form 7 (form ID)"
+
+msgid "ID du formulaire CF7"
+msgstr "CF7 form ID"
+
+msgid "Trouvez l'ID dans Contact → Formulaires de contact."
+msgstr "Find the ID under Contact → Contact Forms."
+
+msgid "📊 Google Analytics"
+msgstr "📊 Google Analytics"
+
+msgid "GA4 Measurement ID"
+msgstr "GA4 Measurement ID"
+
+msgid "🗺️ Google Maps"
+msgstr "🗺️ Google Maps"
+
+msgid "Code embed iframe"
+msgstr "Embed iframe code"
+
+msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
+msgstr "Paste the Google Maps iframe here. Also use the shortcode [arti100_map] on pages."
+
+msgid "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
+msgstr "Map not configured. Add the embed code under Arti100 → Integrations."
+
+msgid "🔍 Meta SEO"
+msgstr "🔍 Meta SEO"
+
+msgid "Meta description homepage"
+msgstr "Homepage meta description"
+
+msgid "Image Open Graph"
+msgstr "Open Graph image"
+
+msgid "📄 Pied de page légal"
+msgstr "📄 Legal footer"
+
+msgid "Texte pied de page"
+msgstr "Footer text"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Nouveau service"
+msgstr "New service"
+
+msgid "Modifier le service"
+msgstr "Edit service"
+
+msgid "Détails du service"
+msgstr "Service details"
+
+msgid "Ajouter un service"
+msgstr "Add a service"
+
+msgid "Toutes nos prestations"
+msgstr "All our services"
+
+msgid "Aucun service trouvé."
+msgstr "No service found."
+
+msgid "Aucun service configuré. Allez dans Services → Ajouter un service."
+msgstr "No service configured. Go to Services → Add a service."
+
+msgid "Prix indicatif"
+msgstr "Estimated price"
+
+msgid "Durée indicative"
+msgstr "Estimated duration"
+
+msgid "Icône (SVG inline ou emoji)"
+msgstr "Icon (inline SVG or emoji)"
+
+msgid "Ordre d'affichage"
+msgstr "Display order"
+
+msgid "Réalisations / Portfolio"
+msgstr "Projects / Portfolio"
+
+msgid "Travaux"
+msgstr "Projects"
+
+msgid "Travail"
+msgstr "Work"
+
+msgid "Nouveau chantier"
+msgstr "New project"
+
+msgid "Modifier le chantier"
+msgstr "Edit project"
+
+msgid "Voir le chantier"
+msgstr "View project"
+
+msgid "Ajouter un chantier"
+msgstr "Add a project"
+
+msgid "Détails du chantier"
+msgstr "Project details"
+
+msgid "Aucun chantier trouvé"
+msgstr "No project found"
+
+msgid "Aucune réalisation trouvée."
+msgstr "No project found."
+
+msgid "Aucune réalisation pour le moment. Revenez bientôt !"
+msgstr "No project yet. Check back soon!"
+
+msgid "Photo AVANT (URL)"
+msgstr "BEFORE photo (URL)"
+
+msgid "Photo APRÈS (URL)"
+msgstr "AFTER photo (URL)"
+
+msgid "Durée chantier"
+msgstr "Project duration"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Types de travaux"
+msgstr "Types of work"
+
+msgid "Membre"
+msgstr "Member"
+
+msgid "Ajouter un membre"
+msgstr "Add a member"
+
+msgid "Profil du membre"
+msgstr "Member profile"
+
+msgid "Poste / Métier"
+msgstr "Position / Trade"
+
+msgid "Bio courte"
+msgstr "Short bio"
+
+msgid "LinkedIn de %s"
+msgstr "%s's LinkedIn"
+
+msgid "Téléphone direct"
+msgstr "Direct phone"
+
+msgid "Ce que nous faisons"
+msgstr "What we do"
+
+msgid "Nos services"
+msgstr "Our services"
+
+msgid "Des prestations professionnelles pour tous vos travaux, réalisées avec soin et garanties."
+msgstr "Professional services for all your projects, carried out with care and guaranteed."
+
+msgid "En savoir plus sur %s"
+msgstr "Learn more about %s"
+
+msgid "En savoir plus"
+msgstr "Learn more"
+
+msgid "Obtenir un devis gratuit"
+msgstr "Get a free quote"
+
+msgid "Aucun service publié."
+msgstr "No service published."
+
+msgid "Ajouter des services →"
+msgstr "Add services →"
+
+msgid "Nos réalisations"
+msgstr "Our projects"
+
+msgid "Nos chantiers"
+msgstr "Our work"
+
+msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
+msgstr "Discover our latest projects, carried out with professionalism."
+
+msgid "Avant travaux — %s"
+msgstr "Before — %s"
+
+msgid "Après travaux — %s"
+msgstr "After — %s"
+
+msgid "Avant"
+msgstr "Before"
+
+msgid "Après"
+msgstr "After"
+
+msgid "Curseur avant/après"
+msgstr "Before/after slider"
+
+msgid "Voir le détail"
+msgstr "View details"
+
+msgid "Voir toutes les réalisations"
+msgstr "View all projects"
+
+msgid "Aucune réalisation publiée."
+msgstr "No project published."
+
+msgid "Ajouter des réalisations →"
+msgstr "Add projects →"
+
+msgid "Notre équipe"
+msgstr "Our team"
+
+msgid "Des pros à votre service"
+msgstr "Professionals at your service"
+
+msgid "Une équipe qualifiée, passionnée et disponible pour tous vos travaux."
+msgstr "A qualified, passionate team available for all your projects."
+
+msgid "Aucun membre d'équipe publié."
+msgstr "No team member published."
+
+msgid "Ajouter des artisans →"
+msgstr "Add team members →"
+
+msgid "Ils nous font confiance"
+msgstr "They trust us"
+
+msgid "Avis de nos clients"
+msgstr "Customer reviews"
+
+msgid "sur Google"
+msgstr "on Google"
+
+msgid "Aucun témoignage configuré."
+msgstr "No testimonials configured."
+
+msgid "Ajouter des témoignages →"
+msgstr "Add testimonials →"
+
+msgid "ou publier des réalisations avec un avis client."
+msgstr "or publish projects with a customer review."
+
+msgid "Contactez-nous"
+msgstr "Contact us"
+
+msgid "Nos coordonnées"
+msgstr "Our contact details"
+
+msgid "Texte de présentation"
+msgstr "Presentation text"
+
+msgid "Texte libre affiché sous le titre, au-dessus des coordonnées. Laissez vide pour masquer."
+msgstr "Free text displayed below the title, above the contact details. Leave empty to hide."
+
+msgid "Demandez votre devis gratuit"
+msgstr "Request your free quote"
+
+msgid "Réponse sous 24h · Devis gratuit et sans engagement"
+msgstr "Response within 24h · Free and non-binding quote"
+
+msgid "Contactez-nous directement"
+msgstr "Contact us directly"
+
+msgid "Prendre rendez-vous en ligne"
+msgstr "Book an appointment online"
+
+msgid "Mode « Lien » activé mais aucune URL configurée."
+msgstr "\"Link\" mode enabled but no URL configured."
+
+msgid "Configurer →"
+msgstr "Configure →"
+
+msgid "Contactez-nous gratuitement, sans engagement."
+msgstr "Contact us for free, without commitment."
+
+msgid "Contactez-nous dès aujourd'hui."
+msgstr "Contact us today."
+
+msgid "XXX - Votre titre principal"
+msgstr "XXX - Your main title"
+
+msgid "XXX - Votre sous-titre descriptif · Devis gratuit"
+msgstr "XXX - Your descriptive subtitle · Free quote"
+
+msgid "XXX - Badge 1"
+msgstr "XXX - Badge 1"
+
+msgid "XXX - Badge 2"
+msgstr "XXX - Badge 2"
+
+msgid "XXX - Badge 3"
+msgstr "XXX - Badge 3"
+
+msgid "XXX - Certification 1"
+msgstr "XXX - Certification 1"
+
+msgid "XXX - Description cert. 1"
+msgstr "XXX - Cert. description 1"
+
+msgid "XXX - Certification 2"
+msgstr "XXX - Certification 2"
+
+msgid "XXX - Description cert. 2"
+msgstr "XXX - Cert. description 2"
+
+msgid "XXX - Certification 3"
+msgstr "XXX - Certification 3"
+
+msgid "XXX - Description cert. 3"
+msgstr "XXX - Cert. description 3"
+
+msgid "XXX - Note / 5 ★★★★★"
+msgstr "XXX - Score / 5 ★★★★★"
+
+msgid "XXX - xxx avis Google"
+msgstr "XXX - xxx Google reviews"
+
+msgid "XXX - Titre services"
+msgstr "XXX - Services title"
+
+msgid "XXX - Sous-titre services"
+msgstr "XXX - Services subtitle"
+
+msgid "XXX - Titre réalisations"
+msgstr "XXX - Projects title"
+
+msgid "XXX - Sous-titre réalisations"
+msgstr "XXX - Projects subtitle"
+
+msgid "XXX - Titre équipe"
+msgstr "XXX - Team title"
+
+msgid "XXX - Sous-titre équipe"
+msgstr "XXX - Team subtitle"
+
+msgid "XXX - Titre avis clients"
+msgstr "XXX - Customer reviews title"
+
+msgid "XXX - Titre contact"
+msgstr "XXX - Contact title"
+
+msgid "XXX - Sous-titre contact"
+msgstr "XXX - Contact subtitle"
+
+msgid "XXX - Horaires lundi-vendredi"
+msgstr "XXX - Mon–Fri hours"
+
+msgid "XXX - Horaires samedi"
+msgstr "XXX - Saturday hours"
+
+msgid "XXX - Horaires dimanche"
+msgstr "XXX - Sunday hours"
+
+msgid "XXX - Texte du bouton"
+msgstr "XXX - Button text"
+
+msgid "XXX - Votre téléphone"
+msgstr "XXX - Your phone number"
+
+msgid "XXX - Votre email"
+msgstr "XXX - Your email address"
+
+msgid "XXX - Votre zone d'intervention"
+msgstr "XXX - Your service area"
+
+msgid "XXX - Nom entreprise"
+msgstr "XXX - Company name"
+
+msgid "Devis gratuit"
+msgstr "Free Quote"
+
+msgid "Demandez un devis gratuit"
+msgstr "Request a free quote"
+
+msgid "Besoin d'un artisan rapidement ?"
+msgstr "Need a craftsman quickly?"
+
+msgid "Besoin d'un devis ?"
+msgstr "Need a quote?"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Fil d'Ariane"
+msgstr "Breadcrumb"
+
+msgid "%d étoiles sur 5"
+msgstr "%d stars out of 5"
+
+msgid "Demandez un devis similaire"
+msgstr "Request a similar quote"
+
+msgid "Toutes les réalisations"
+msgstr "All projects"
+
+msgid "Intervention sur %s."
+msgstr "Serving %s."
+
+msgid "[Devis] %s — %s"
+msgstr "[Quote] %s — %s"
+
+msgid "Lire la suite"
+msgstr "Read more"
+
+msgid "Suivant"
+msgstr "Next"
+
+msgid "Précédent"
+msgstr "Previous"
+
+msgid "Tous"
+msgstr "All"
+
+msgid "Rien à afficher"
+msgstr "Nothing to display"
+
+msgid "Corbeille vide"
+msgstr "Empty trash"
+
+msgid "Rechercher"
+msgstr "Search"
+
+msgid "Résultats pour \"%s\""
+msgstr "Results for \"%s\""
+
+msgid "Aucun contenu ne correspond à votre recherche."
+msgstr "No content matches your search."
+
+msgid "Aucun contenu pour le moment"
+msgstr "No content for now"
+
+msgid "Page introuvable"
+msgstr "Page not found"
+
+msgid "Retour à l'accueil"
+msgstr "Back to homepage"
+
+msgid "La page que vous cherchez n'existe pas ou a été déplacée."
+msgstr "The page you are looking for doesn't exist or has been moved."
+
+msgid "Nous trouver"
+msgstr "Find us"
+
+msgid "Nous vous recontacterons dans les plus brefs délais."
+msgstr "We will get back to you as soon as possible."

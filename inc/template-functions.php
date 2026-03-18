@@ -35,7 +35,7 @@ function arti100_get_company_name() {
  * Slogan
  */
 function arti100_get_slogan() {
-	return esc_html( get_option( 'arti100_slogan', 'Artisan qualifié près de chez vous.' ) );
+	return esc_html( get_option( 'arti100_slogan', __( 'Artisan qualifié près de chez vous.', 'arti100' ) ) );
 }
 
 /**
