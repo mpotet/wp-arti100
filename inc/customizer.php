@@ -13,17 +13,19 @@ function arti100_inject_dynamic_colors() {
 	$accent  = get_option( 'arti100_color_accent',  '#F5821F' );
 
 	// Générer variantes
-	$primary_dark  = arti100_adjust_color( $primary, -20 );
-	$primary_light = arti100_adjust_color( $primary, 60 );
-	$accent_dark   = arti100_adjust_color( $accent, -20 );
+	$primary_dark   = arti100_adjust_color( $primary, -20 );
+	$primary_darker = arti100_adjust_color( $primary, -40 );
+	$primary_light  = arti100_adjust_color( $primary, 60 );
+	$accent_dark    = arti100_adjust_color( $accent, -20 );
 
 	// Injecter après wp_print_styles (priorité 8) pour surcharger main.css
 	echo '<style id="arti100-dynamic-colors">:root{'
-		. '--color-primary:'       . esc_attr( $primary )       . ';'
-		. '--color-primary-dark:'  . esc_attr( $primary_dark )  . ';'
-		. '--color-primary-light:' . esc_attr( $primary_light ) . ';'
-		. '--color-accent:'        . esc_attr( $accent )        . ';'
-		. '--color-accent-dark:'   . esc_attr( $accent_dark )   . ';'
+		. '--color-primary:'        . esc_attr( $primary )        . ';'
+		. '--color-primary-dark:'   . esc_attr( $primary_dark )   . ';'
+		. '--color-primary-darker:' . esc_attr( $primary_darker ) . ';'
+		. '--color-primary-light:'  . esc_attr( $primary_light )  . ';'
+		. '--color-accent:'         . esc_attr( $accent )         . ';'
+		. '--color-accent-dark:'    . esc_attr( $accent_dark )    . ';'
 		. '}</style>' . "\n";
 }
 // Priorité 20 : wp_print_styles est à priorité 8 → notre <style> vient après les <link>

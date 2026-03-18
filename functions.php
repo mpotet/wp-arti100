@@ -140,15 +140,6 @@ function arti100_enqueue_assets() {
 add_action( 'wp_enqueue_scripts', 'arti100_enqueue_assets' );
 
 /* =========================================================
-   ADMIN - Enqueue media library on settings page
-   ========================================================= */
-add_action( 'admin_enqueue_scripts', function() {
-	if ( isset( $_GET['page'] ) && $_GET['page'] === 'arti100-settings' ) {
-		wp_enqueue_media();
-	}
-} );
-
-/* =========================================================
    FLUSH REWRITE RULES (activation thème)
    ========================================================= */
 function arti100_flush_rewrite_rules() {

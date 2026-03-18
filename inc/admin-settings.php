@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
    MENU ADMIN
    ========================================================= */
 function arti100_admin_menu() {
-	add_menu_page(
+	$hook = add_menu_page(
 		__( 'Arti100 Settings', 'arti100' ),
 		__( '⚙️ Arti100', 'arti100' ),
 		'manage_options',
@@ -19,6 +19,12 @@ function arti100_admin_menu() {
 		'dashicons-admin-settings',
 		3
 	);
+	// load-{hook} ne se déclenche QUE sur cette page — garantit wp_enqueue_media
+	add_action( "load-{$hook}", function () {
+		add_action( 'admin_enqueue_scripts', function () {
+			wp_enqueue_media();
+		} );
+	} );
 }
 add_action( 'admin_menu', 'arti100_admin_menu' );
 
@@ -57,7 +63,6 @@ function arti100_save_options() {
 			'arti100_facebook'      => 'esc_url_raw',
 			'arti100_instagram'     => 'esc_url_raw',
 			'arti100_linkedin_url'  => 'esc_url_raw',
-			'arti100_google_maps'   => 'sanitize_text_field',
 		];
 		foreach ( $fields as $key => $sanitizer ) {
 			if ( isset( $_POST[ $key ] ) ) {

@@ -133,26 +133,6 @@ function arti100_logo_html() {
 }
 
 /**
- * Icône selon le métier configuré
- */
-function arti100_get_metier_icon( $metier = '' ) {
-	if ( empty( $metier ) ) {
-		$metier = get_option( 'arti100_metier', 'plombier' );
-	}
-	$icons = [
-		'plombier'     => ARTI100_URI . '/assets/images/icon-plombier.svg',
-		'electricien'  => ARTI100_URI . '/assets/images/icon-electricien.svg',
-		'plaquiste'    => ARTI100_URI . '/assets/images/icon-plaquiste.svg',
-		'maçon'        => ARTI100_URI . '/assets/images/icon-maçon.svg',
-		'peintre'      => ARTI100_URI . '/assets/images/icon-peintre.svg',
-		'menuisier'    => ARTI100_URI . '/assets/images/icon-menuisier.svg',
-		'chauffagiste' => ARTI100_URI . '/assets/images/icon-chauffagiste.svg',
-		'charpentier'  => ARTI100_URI . '/assets/images/icon-charpentier.svg',
-	];
-	return isset( $icons[ $metier ] ) ? $icons[ $metier ] : $icons['plombier'];
-}
-
-/**
  * Google Maps embed HTML
  */
 function arti100_get_maps_embed() {

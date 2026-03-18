@@ -322,7 +322,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   min-height: 75vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 50%, #1a4a7c 100%);
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 50%, var(--color-primary-darker) 100%);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -919,9 +919,7 @@ a.contact-info-primary:hover { color: var(--color-primary-dark); }
   gap: 2.5rem;
 }
 .footer-col-title { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 1.25rem; }
-.footer-col-brand .site-logo { filter: brightness(10); }
 .footer-col-brand .site-logo-text { color: #fff; }
-.footer-col-brand .custom-logo-link img { filter: brightness(10); }
 .footer-slogan { font-size: .88rem; opacity: .7; margin: .75rem 0 1.25rem; }
 .footer-contact-list { display: flex; flex-direction: column; gap: .6rem; }
 .footer-contact-item {
