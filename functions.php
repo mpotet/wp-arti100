@@ -111,6 +111,16 @@ function arti100_enqueue_assets() {
 		/* Footer — fond continu + centrage copyright */
 		. '.site-footer{background:var(--color-bg-dark)}'
 		. '.footer-bottom-inner{justify-content:center;gap:2rem}'
+		/* About section */
+		. '.about-section{background:var(--color-bg-light,#f8f8f6)}'
+		. '.about-inner{display:grid;gap:3rem;align-items:center;margin-top:2.5rem}'
+		. '.about-has-image{grid-template-columns:1fr 1fr}'
+		. '.about-no-image{grid-template-columns:1fr;max-width:760px;margin-left:auto;margin-right:auto}'
+		. '.about-image-wrap{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-lg)}'
+		. '.about-image{width:100%;height:100%;object-fit:cover;display:block;max-height:480px}'
+		. '.about-body{display:flex;flex-direction:column;gap:1.25rem}'
+		. '.about-text{color:var(--color-text);line-height:1.8;font-size:1rem;white-space:pre-line}'
+		. '@media(max-width:768px){.about-has-image{grid-template-columns:1fr}.about-image{max-height:280px}}'
 	);
 
 	// Scripts
@@ -128,6 +138,17 @@ function arti100_enqueue_assets() {
 	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 }
 add_action( 'wp_enqueue_scripts', 'arti100_enqueue_assets' );
+
+/* =========================================================
+   ADMIN — Enqueue media library on settings page
+   ========================================================= */
+function arti100_admin_enqueue() {
+	$screen = get_current_screen();
+	if ( $screen && strpos( $screen->id, 'arti100' ) !== false ) {
+		wp_enqueue_media();
+	}
+}
+add_action( 'admin_enqueue_scripts', 'arti100_admin_enqueue' );
 
 /* =========================================================
    FLUSH REWRITE RULES (activation thème)

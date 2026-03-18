@@ -251,6 +251,30 @@ msgstr "👁️ Visibilidad de secciones"
 msgid "Cochez pour afficher une section sur la page d'accueil."
 msgstr "Marque para mostrar una sección en la página de inicio."
 
+msgid "À propos (Présentation entreprise)"
+msgstr "Acerca de (Presentación empresa)"
+
+msgid "🏢 À propos — Présentation de l'entreprise"
+msgstr "🏢 Acerca de — Presentación de la empresa"
+
+msgid "Titre de la section"
+msgstr "Título de la sección"
+
+msgid "Texte principal affiché dans la section À propos. Sauts de ligne supportés."
+msgstr "Texto principal mostrado en la sección Acerca de. Se admiten saltos de línea."
+
+msgid "Image (URL)"
+msgstr "Imagen (URL)"
+
+msgid "Choisir une image"
+msgstr "Elegir una imagen"
+
+msgid "Photo de l'équipe, de l'atelier ou de votre artisan. Si vide, la section s'affiche sans image."
+msgstr "Foto del equipo, del taller o de su artesano. Si está vacío, la sección se muestra sin imagen."
+
+msgid "Section À propos non configurée."
+msgstr "Sección Acerca de no configurada."
+
 msgid "✏️ Titres & sous-titres des sections"
 msgstr "✏️ Títulos y subtítulos de las secciones"
 
@@ -344,41 +368,65 @@ msgstr "Testimonios de clientes"
 msgid "Témoin client"
 msgstr "Cliente"
 
-msgid "📅 Prise de RDV Calendly"
-msgstr "📅 Reserva de citas con Calendly"
+msgid "📅 Prise de RDV — Calendly"
+msgstr "📅 Reserva de citas — Calendly"
 
 msgid "URL Calendly"
 msgstr "URL de Calendly"
 
-msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
-msgstr "Su enlace personal de Calendly. Se abrirá un popup al hacer clic en \"Reservar cita\"."
+msgid "Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s'ouvre au clic."
+msgstr "Calendly es una herramienta gratuita de reserva de citas online. Una vez configurado, aparece un botón «Reservar cita» en el hero y se abre un popup de Calendly al hacer clic."
 
-msgid "📧 Contact Form 7 (ID du formulaire)"
-msgstr "📧 Contact Form 7 (ID del formulario)"
+msgid "Comment obtenir votre URL : connectez-vous sur calendly.com → copiez le lien de votre page de événement (ex: https://calendly.com/votre-nom/consultation)."
+msgstr "Cómo obtener su URL: inicie sesión en calendly.com → copie el enlace de su página de eventos (ej: https://calendly.com/su-nombre/consulta)."
 
-msgid "ID du formulaire CF7"
-msgstr "ID del formulario CF7"
+msgid "Laissez vide pour désactiver le bouton « Prendre RDV »."
+msgstr "Dejar vacío para desactivar el botón «Reservar cita»."
 
-msgid "Trouvez l'ID dans Contact → Formulaires de contact."
-msgstr "Encuentre el ID en Contacto → Formularios de contacto."
+msgid "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité."
+msgstr "Todas las integraciones son opcionales. Deje un campo vacío para desactivar la función."
 
-msgid "📊 Google Analytics"
-msgstr "📊 Google Analytics"
+msgid "🗺️ Google Maps — Carte interactive"
+msgstr "🗺️ Google Maps — Mapa interactivo"
 
-msgid "GA4 Measurement ID"
-msgstr "ID de medición GA4"
+msgid "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :"
+msgstr "Muestre un mapa de Google Maps en la parte inferior de la sección Contacto. Cómo copiar el código de integración:"
 
-msgid "🗺️ Google Maps"
-msgstr "🗺️ Google Maps"
+msgid "Ouvrez maps.google.com et recherchez votre adresse."
+msgstr "Abra maps.google.com y busque su dirección."
+
+msgid "Cliquez sur « Partager » → onglet « Intégrer une carte »."
+msgstr "Haga clic en «Compartir» → pestaña «Insertar un mapa»."
+
+msgid "Sélectionnez une taille (peu importe, le thème l'adapte), puis copiez le code HTML."
+msgstr "Seleccione un tamaño (no importa, el tema lo adapta), luego copie el código HTML."
+
+msgid "Collez-le dans le champ ci-dessous et enregistrez."
+msgstr "Pégalo en el campo de abajo y guarda."
 
 msgid "Code embed iframe"
 msgstr "Código iframe embebido"
 
-msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
-msgstr "Pegue el iframe de Google Maps aquí. También puede usar el shortcode [arti100_map] en las páginas."
+msgid "Collez ici le code <iframe> copié depuis Google Maps. Vous pouvez aussi utiliser le shortcode [arti100_map] sur n'importe quelle page."
+msgstr "Pegue aquí el código <iframe> copiado de Google Maps. También puede usar el shortcode [arti100_map] en cualquier página."
 
 msgid "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
 msgstr "Mapa no configurado. Añada el código embed en Arti100 → Integraciones."
+
+msgid "📊 Google Analytics 4 (GA4)"
+msgstr "📊 Google Analytics 4 (GA4)"
+
+msgid "GA4 Measurement ID"
+msgstr "ID de medición GA4"
+
+msgid "Suivez le trafic de votre site avec Google Analytics. Le code de suivi est injecté automatiquement dans toutes les pages."
+msgstr "Siga el tráfico de su sitio con Google Analytics. El código de seguimiento se inyecta automáticamente en todas las páginas."
+
+msgid "Comment obtenir votre Measurement ID : connectez-vous sur analytics.google.com → Admin → Flux de données → votre site → copiez l'ID (format G-XXXXXXXXXX)."
+msgstr "Cómo obtener su ID de medición: inicie sesión en analytics.google.com → Administración → Flujos de datos → su sitio → copie el ID (formato G-XXXXXXXXXX)."
+
+msgid "Format : G-XXXXXXXXXX. Laissez vide pour désactiver le suivi."
+msgstr "Formato: G-XXXXXXXXXX. Dejar vacío para desactivar el seguimiento."
 
 msgid "🔍 Meta SEO"
 msgstr "🔍 Meta SEO"
@@ -719,11 +767,20 @@ msgstr "XXX - Su zona de intervención"
 msgid "XXX - Nom entreprise"
 msgstr "XXX - Nombre de empresa"
 
+msgid "XXX - Titre À propos"
+msgstr "XXX - Título Acerca de"
+
+msgid "XXX - Décrivez ici votre entreprise, votre histoire, vos valeurs et ce qui vous différencie de la concurrence."
+msgstr "XXX - Describa aquí su empresa, su historia, sus valores y lo que le diferencia de la competencia."
+
 msgid "Devis gratuit"
 msgstr "Presupuesto gratuito"
 
 msgid "Demandez un devis gratuit"
 msgstr "Solicitar un presupuesto gratuito"
+
+msgid "À propos"
+msgstr "Acerca de"
 
 msgid "Besoin d'un artisan rapidement ?"
 msgstr "¿Necesita un artesano rápidamente?"

@@ -251,6 +251,30 @@ msgstr "👁️ Section visibility"
 msgid "Cochez pour afficher une section sur la page d'accueil."
 msgstr "Check to show a section on the homepage."
 
+msgid "À propos (Présentation entreprise)"
+msgstr "About (Company presentation)"
+
+msgid "🏢 À propos — Présentation de l'entreprise"
+msgstr "🏢 About — Company presentation"
+
+msgid "Titre de la section"
+msgstr "Section title"
+
+msgid "Texte principal affiché dans la section À propos. Sauts de ligne supportés."
+msgstr "Main text displayed in the About section. Line breaks supported."
+
+msgid "Image (URL)"
+msgstr "Image (URL)"
+
+msgid "Choisir une image"
+msgstr "Choose an image"
+
+msgid "Photo de l'équipe, de l'atelier ou de votre artisan. Si vide, la section s'affiche sans image."
+msgstr "Photo of the team, workshop or your craftsman. If empty, the section displays without an image."
+
+msgid "Section À propos non configurée."
+msgstr "About section not configured."
+
 msgid "✏️ Titres & sous-titres des sections"
 msgstr "✏️ Section titles & subtitles"
 
@@ -344,41 +368,65 @@ msgstr "Customer testimonials"
 msgid "Témoin client"
 msgstr "Customer"
 
-msgid "📅 Prise de RDV Calendly"
-msgstr "📅 Calendly Appointment Booking"
+msgid "📅 Prise de RDV — Calendly"
+msgstr "📅 Appointment Booking — Calendly"
 
 msgid "URL Calendly"
 msgstr "Calendly URL"
 
-msgid "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\"."
-msgstr "Your personal Calendly link. A popup will open when clicking \"Book an appointment\"."
+msgid "Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s'ouvre au clic."
+msgstr "Calendly is a free online appointment booking tool. Once configured, a \"Book an appointment\" button appears in the hero and a Calendly popup opens on click."
 
-msgid "📧 Contact Form 7 (ID du formulaire)"
-msgstr "📧 Contact Form 7 (form ID)"
+msgid "Comment obtenir votre URL : connectez-vous sur calendly.com → copiez le lien de votre page de événement (ex: https://calendly.com/votre-nom/consultation)."
+msgstr "How to get your URL: log in to calendly.com → copy the link to your event page (e.g. https://calendly.com/your-name/consultation)."
 
-msgid "ID du formulaire CF7"
-msgstr "CF7 form ID"
+msgid "Laissez vide pour désactiver le bouton « Prendre RDV »."
+msgstr "Leave empty to disable the \"Book an appointment\" button."
 
-msgid "Trouvez l'ID dans Contact → Formulaires de contact."
-msgstr "Find the ID under Contact → Contact Forms."
+msgid "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité."
+msgstr "All integrations are optional. Leave a field empty to disable the feature."
 
-msgid "📊 Google Analytics"
-msgstr "📊 Google Analytics"
+msgid "🗺️ Google Maps — Carte interactive"
+msgstr "🗺️ Google Maps — Interactive map"
 
-msgid "GA4 Measurement ID"
-msgstr "GA4 Measurement ID"
+msgid "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :"
+msgstr "Display a Google Maps map at the bottom of the Contact section. Here is how to copy the embed code:"
 
-msgid "🗺️ Google Maps"
-msgstr "🗺️ Google Maps"
+msgid "Ouvrez maps.google.com et recherchez votre adresse."
+msgstr "Open maps.google.com and search for your address."
+
+msgid "Cliquez sur « Partager » → onglet « Intégrer une carte »."
+msgstr "Click «Share» → «Embed a map» tab."
+
+msgid "Sélectionnez une taille (peu importe, le thème l'adapte), puis copiez le code HTML."
+msgstr "Select a size (doesn't matter, the theme adapts it), then copy the HTML code."
+
+msgid "Collez-le dans le champ ci-dessous et enregistrez."
+msgstr "Paste it in the field below and save."
 
 msgid "Code embed iframe"
 msgstr "Embed iframe code"
 
-msgid "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages."
-msgstr "Paste the Google Maps iframe here. Also use the shortcode [arti100_map] on pages."
+msgid "Collez ici le code <iframe> copié depuis Google Maps. Vous pouvez aussi utiliser le shortcode [arti100_map] sur n'importe quelle page."
+msgstr "Paste here the <iframe> code copied from Google Maps. You can also use the shortcode [arti100_map] on any page."
 
 msgid "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations."
 msgstr "Map not configured. Add the embed code under Arti100 → Integrations."
+
+msgid "📊 Google Analytics 4 (GA4)"
+msgstr "📊 Google Analytics 4 (GA4)"
+
+msgid "GA4 Measurement ID"
+msgstr "GA4 Measurement ID"
+
+msgid "Suivez le trafic de votre site avec Google Analytics. Le code de suivi est injecté automatiquement dans toutes les pages."
+msgstr "Track your website traffic with Google Analytics. The tracking code is automatically injected into all pages."
+
+msgid "Comment obtenir votre Measurement ID : connectez-vous sur analytics.google.com → Admin → Flux de données → votre site → copiez l'ID (format G-XXXXXXXXXX)."
+msgstr "How to get your Measurement ID: log in to analytics.google.com → Admin → Data Streams → your site → copy the ID (format G-XXXXXXXXXX)."
+
+msgid "Format : G-XXXXXXXXXX. Laissez vide pour désactiver le suivi."
+msgstr "Format: G-XXXXXXXXXX. Leave empty to disable tracking."
 
 msgid "🔍 Meta SEO"
 msgstr "🔍 Meta SEO"
@@ -719,11 +767,20 @@ msgstr "XXX - Your service area"
 msgid "XXX - Nom entreprise"
 msgstr "XXX - Company name"
 
+msgid "XXX - Titre À propos"
+msgstr "XXX - About title"
+
+msgid "XXX - Décrivez ici votre entreprise, votre histoire, vos valeurs et ce qui vous différencie de la concurrence."
+msgstr "XXX - Describe here your company, your history, your values and what sets you apart from the competition."
+
 msgid "Devis gratuit"
 msgstr "Free Quote"
 
 msgid "Demandez un devis gratuit"
 msgstr "Request a free quote"
+
+msgid "À propos"
+msgstr "About us"
 
 msgid "Besoin d'un artisan rapidement ?"
 msgstr "Need a craftsman quickly?"

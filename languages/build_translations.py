@@ -114,6 +114,24 @@ STRINGS = {
     "Cochez pour afficher une section sur la page d'accueil.": {
         "en": "Check to show a section on the homepage.",
         "es": "Marque para mostrar una sección en la página de inicio."},
+    "À propos (Présentation entreprise)": {"en": "About (Company presentation)",     "es": "Acerca de (Presentación empresa)"},
+
+    # ── About section ─────────────────────────────────────────────────
+    "🏢 À propos — Présentation de l'entreprise": {
+        "en": "🏢 About — Company presentation",
+        "es": "🏢 Acerca de — Presentación de la empresa"},
+    "Titre de la section":             {"en": "Section title",                        "es": "Título de la sección"},
+    "Texte principal affiché dans la section À propos. Sauts de ligne supportés.": {
+        "en": "Main text displayed in the About section. Line breaks supported.",
+        "es": "Texto principal mostrado en la sección Acerca de. Se admiten saltos de línea."},
+    "Image (URL)":                     {"en": "Image (URL)",                          "es": "Imagen (URL)"},
+    "Choisir une image":               {"en": "Choose an image",                      "es": "Elegir una imagen"},
+    "Photo de l'équipe, de l'atelier ou de votre artisan. Si vide, la section s'affiche sans image.": {
+        "en": "Photo of the team, workshop or your craftsman. If empty, the section displays without an image.",
+        "es": "Foto del equipo, del taller o de su artesano. Si está vacío, la sección se muestra sin imagen."},
+    "Section À propos non configurée.": {
+        "en": "About section not configured.",
+        "es": "Sección Acerca de no configurada."},
 
     # ── Section titles ────────────────────────────────────────────────
     "✏️ Titres & sous-titres des sections": {
@@ -169,28 +187,56 @@ STRINGS = {
     "Témoin client":                   {"en": "Customer",                             "es": "Cliente"},
 
     # ── Integrations ──────────────────────────────────────────────────
-    "📅 Prise de RDV Calendly":        {"en": "📅 Calendly Appointment Booking",     "es": "📅 Reserva de citas con Calendly"},
+    "📅 Prise de RDV — Calendly":      {"en": "📅 Appointment Booking — Calendly",    "es": "📅 Reserva de citas — Calendly"},
     "URL Calendly":                    {"en": "Calendly URL",                         "es": "URL de Calendly"},
-    "Votre lien personnel Calendly. Un popup s'ouvrira au clic sur \"Prendre RDV\".": {
-        "en": "Your personal Calendly link. A popup will open when clicking \"Book an appointment\".",
-        "es": "Su enlace personal de Calendly. Se abrirá un popup al hacer clic en \"Reservar cita\"."},
-    "📧 Contact Form 7 (ID du formulaire)": {
-        "en": "📧 Contact Form 7 (form ID)",
-        "es": "📧 Contact Form 7 (ID del formulario)"},
-    "ID du formulaire CF7":            {"en": "CF7 form ID",                          "es": "ID del formulario CF7"},
-    "Trouvez l'ID dans Contact → Formulaires de contact.": {
-        "en": "Find the ID under Contact → Contact Forms.",
-        "es": "Encuentre el ID en Contacto → Formularios de contacto."},
-    "📊 Google Analytics":             {"en": "📊 Google Analytics",                 "es": "📊 Google Analytics"},
-    "GA4 Measurement ID":              {"en": "GA4 Measurement ID",                  "es": "ID de medición GA4"},
-    "🗺️ Google Maps":                  {"en": "🗺️ Google Maps",                      "es": "🗺️ Google Maps"},
+    "Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s'ouvre au clic.": {
+        "en": "Calendly is a free online appointment booking tool. Once configured, a \"Book an appointment\" button appears in the hero and a Calendly popup opens on click.",
+        "es": "Calendly es una herramienta gratuita de reserva de citas online. Una vez configurado, aparece un botón «Reservar cita» en el hero y se abre un popup de Calendly al hacer clic."},
+    "Comment obtenir votre URL : connectez-vous sur calendly.com → copiez le lien de votre page de événement (ex: https://calendly.com/votre-nom/consultation).": {
+        "en": "How to get your URL: log in to calendly.com → copy the link to your event page (e.g. https://calendly.com/your-name/consultation).",
+        "es": "Cómo obtener su URL: inicie sesión en calendly.com → copie el enlace de su página de eventos (ej: https://calendly.com/su-nombre/consulta)."},
+    "Laissez vide pour désactiver le bouton « Prendre RDV ».": {
+        "en": "Leave empty to disable the \"Book an appointment\" button.",
+        "es": "Dejar vacío para desactivar el botón «Reservar cita»."},
+    "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité.": {
+        "en": "All integrations are optional. Leave a field empty to disable the feature.",
+        "es": "Todas las integraciones son opcionales. Deje un campo vacío para desactivar la función."},
+    "🗺️ Google Maps — Carte interactive": {
+        "en": "🗺️ Google Maps — Interactive map",
+        "es": "🗺️ Google Maps — Mapa interactivo"},
+    "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :": {
+        "en": "Display a Google Maps map at the bottom of the Contact section. Here is how to copy the embed code:",
+        "es": "Muestre un mapa de Google Maps en la parte inferior de la sección Contacto. Cómo copiar el código de integración:"},
+    "Ouvrez maps.google.com et recherchez votre adresse.": {
+        "en": "Open maps.google.com and search for your address.",
+        "es": "Abra maps.google.com y busque su dirección."},
+    "Cliquez sur « Partager » → onglet « Intégrer une carte ».": {
+        "en": "Click «Share» → «Embed a map» tab.",
+        "es": "Haga clic en «Compartir» → pestaña «Insertar un mapa»."},
+    "Sélectionnez une taille (peu importe, le thème l'adapte), puis copiez le code HTML.": {
+        "en": "Select a size (doesn't matter, the theme adapts it), then copy the HTML code.",
+        "es": "Seleccione un tamaño (no importa, el tema lo adapta), luego copie el código HTML."},
+    "Collez-le dans le champ ci-dessous et enregistrez.": {
+        "en": "Paste it in the field below and save.",
+        "es": "Pégalo en el campo de abajo y guarda."},
     "Code embed iframe":               {"en": "Embed iframe code",                   "es": "Código iframe embebido"},
-    "Collez l'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages.": {
-        "en": "Paste the Google Maps iframe here. Also use the shortcode [arti100_map] on pages.",
-        "es": "Pegue el iframe de Google Maps aquí. También puede usar el shortcode [arti100_map] en las páginas."},
+    "Collez ici le code <iframe> copié depuis Google Maps. Vous pouvez aussi utiliser le shortcode [arti100_map] sur n'importe quelle page.": {
+        "en": "Paste here the <iframe> code copied from Google Maps. You can also use the shortcode [arti100_map] on any page.",
+        "es": "Pegue aquí el código <iframe> copiado de Google Maps. También puede usar el shortcode [arti100_map] en cualquier página."},
     "Carte non configurée. Ajoutez l'embed dans Arti100 → Intégrations.": {
         "en": "Map not configured. Add the embed code under Arti100 → Integrations.",
         "es": "Mapa no configurado. Añada el código embed en Arti100 → Integraciones."},
+    "📊 Google Analytics 4 (GA4)":     {"en": "📊 Google Analytics 4 (GA4)",          "es": "📊 Google Analytics 4 (GA4)"},
+    "GA4 Measurement ID":              {"en": "GA4 Measurement ID",                  "es": "ID de medición GA4"},
+    "Suivez le trafic de votre site avec Google Analytics. Le code de suivi est injecté automatiquement dans toutes les pages.": {
+        "en": "Track your website traffic with Google Analytics. The tracking code is automatically injected into all pages.",
+        "es": "Siga el tráfico de su sitio con Google Analytics. El código de seguimiento se inyecta automáticamente en todas las páginas."},
+    "Comment obtenir votre Measurement ID : connectez-vous sur analytics.google.com → Admin → Flux de données → votre site → copiez l'ID (format G-XXXXXXXXXX).": {
+        "en": "How to get your Measurement ID: log in to analytics.google.com → Admin → Data Streams → your site → copy the ID (format G-XXXXXXXXXX).",
+        "es": "Cómo obtener su ID de medición: inicie sesión en analytics.google.com → Administración → Flujos de datos → su sitio → copie el ID (formato G-XXXXXXXXXX)."},
+    "Format : G-XXXXXXXXXX. Laissez vide pour désactiver le suivi.": {
+        "en": "Format: G-XXXXXXXXXX. Leave empty to disable tracking.",
+        "es": "Formato: G-XXXXXXXXXX. Dejar vacío para desactivar el seguimiento."},
 
     # ── SEO & Footer ──────────────────────────────────────────────────
     "🔍 Meta SEO":                     {"en": "🔍 Meta SEO",                         "es": "🔍 Meta SEO"},
@@ -350,10 +396,15 @@ STRINGS = {
     "XXX - Votre email":                 {"en": "XXX - Your email address",             "es": "XXX - Su correo electrónico"},
     "XXX - Votre zone d'intervention":   {"en": "XXX - Your service area",              "es": "XXX - Su zona de intervención"},
     "XXX - Nom entreprise":              {"en": "XXX - Company name",                   "es": "XXX - Nombre de empresa"},
+    "XXX - Titre À propos":              {"en": "XXX - About title",                    "es": "XXX - Título Acerca de"},
+    "XXX - Décrivez ici votre entreprise, votre histoire, vos valeurs et ce qui vous différencie de la concurrence.": {
+        "en": "XXX - Describe here your company, your history, your values and what sets you apart from the competition.",
+        "es": "XXX - Describa aquí su empresa, su historia, sus valores y lo que le diferencia de la competencia."},
 
     # ── Frontend: general ─────────────────────────────────────────────
     "Devis gratuit":                   {"en": "Free Quote",                           "es": "Presupuesto gratuito"},
     "Demandez un devis gratuit":       {"en": "Request a free quote",                 "es": "Solicitar un presupuesto gratuito"},
+    "À propos":                        {"en": "About us",                             "es": "Acerca de"},
     "Besoin d'un artisan rapidement ?": {
         "en": "Need a craftsman quickly?",
         "es": "¿Necesita un artesano rápidamente?"},

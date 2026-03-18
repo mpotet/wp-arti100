@@ -66,7 +66,7 @@ function arti100_save_options() {
 
 	if ( $tab === 'content' ) {
 		// Show/hide sections
-		$toggles = [ 'arti100_show_trust', 'arti100_show_services', 'arti100_show_portfolio', 'arti100_show_equipe', 'arti100_show_temoignages' ];
+		$toggles = [ 'arti100_show_about', 'arti100_show_trust', 'arti100_show_services', 'arti100_show_portfolio', 'arti100_show_equipe', 'arti100_show_temoignages' ];
 		foreach ( $toggles as $toggle ) {
 			update_option( $toggle, isset( $_POST[ $toggle ] ) ? '1' : '0' );
 		}
@@ -88,6 +88,10 @@ function arti100_save_options() {
 
 		// Section titles & sous-titres
 		$section_fields = [
+			'arti100_about_titre'          => 'sanitize_text_field',
+			'arti100_about_sous_titre'     => 'sanitize_text_field',
+			'arti100_about_texte'          => 'sanitize_textarea_field',
+			'arti100_about_image'          => 'esc_url_raw',
 			'arti100_services_titre'       => 'sanitize_text_field',
 			'arti100_services_sous_titre'  => 'sanitize_text_field',
 			'arti100_portfolio_titre'      => 'sanitize_text_field',
@@ -132,17 +136,31 @@ function arti100_save_options() {
 
 	if ( $tab === 'integrations' ) {
 		$fields = [
-			'arti100_calendly_url'  => 'esc_url_raw',
-			'arti100_cf7_id'        => 'absint',
-			'arti100_stripe_pk'     => 'sanitize_text_field',
-			'arti100_ga_id'         => 'sanitize_text_field',
-			'arti100_maps_embed'    => 'wp_kses_post',
-			'arti100_maps_api_key'  => 'sanitize_text_field',
+			'arti100_calendly_url' => 'esc_url_raw',
+			'arti100_ga_id'        => 'sanitize_text_field',
 		];
 		foreach ( $fields as $key => $sanitizer ) {
 			if ( isset( $_POST[ $key ] ) ) {
 				update_option( $key, $sanitizer( $_POST[ $key ] ) );
 			}
+		}
+
+		// Google Maps — wp_kses_post strips <iframe>, on utilise une allowlist dédiée
+		if ( isset( $_POST['arti100_maps_embed'] ) ) {
+			$iframe_allowed = [
+				'iframe' => [
+					'src'             => true,
+					'width'           => true,
+					'height'          => true,
+					'style'           => true,
+					'allowfullscreen' => true,
+					'loading'         => true,
+					'referrerpolicy'  => true,
+					'frameborder'     => true,
+					'title'           => true,
+				],
+			];
+			update_option( 'arti100_maps_embed', wp_kses( wp_unslash( $_POST['arti100_maps_embed'] ), $iframe_allowed ) );
 		}
 	}
 
@@ -410,6 +428,7 @@ function arti100_tab_content() {
 		<table class="form-table">
 			<?php
 			$sections = [
+				'arti100_show_about'       => __( 'À propos (Présentation entreprise)', 'arti100' ),
 				'arti100_show_trust'       => __( 'Bande de confiance (Trust strip)', 'arti100' ),
 				'arti100_show_services'    => __( 'Services', 'arti100' ),
 				'arti100_show_portfolio'   => __( 'Réalisations / Portfolio', 'arti100' ),
@@ -427,6 +446,36 @@ function arti100_tab_content() {
 					</td>
 				</tr>
 			<?php endforeach; ?>
+		</table>
+	</div>
+
+	<!-- ▸ À propos -->
+	<div class="arti100-card">
+		<h2><?php esc_html_e( '🏢 À propos — Présentation de l\'entreprise', 'arti100' ); ?></h2>
+		<table class="form-table">
+			<tr>
+				<th><?php esc_html_e( 'Titre de la section', 'arti100' ); ?></th>
+				<td><input type="text" name="arti100_about_titre" value="<?php echo esc_attr( get_option( 'arti100_about_titre', 'XXX - Titre À propos' ) ); ?>" class="large-text" /></td>
+			</tr>
+			<tr>
+				<th><?php esc_html_e( 'Sous-titre', 'arti100' ); ?></th>
+				<td><input type="text" name="arti100_about_sous_titre" value="<?php echo esc_attr( get_option( 'arti100_about_sous_titre', '' ) ); ?>" class="large-text" /></td>
+			</tr>
+			<tr>
+				<th><?php esc_html_e( 'Texte de présentation', 'arti100' ); ?></th>
+				<td>
+					<textarea name="arti100_about_texte" rows="6" class="large-text"><?php echo esc_textarea( get_option( 'arti100_about_texte', 'XXX - Décrivez ici votre entreprise, votre histoire, vos valeurs et ce qui vous différencie de la concurrence.' ) ); ?></textarea>
+					<p class="description"><?php esc_html_e( 'Texte principal affiché dans la section À propos. Sauts de ligne supportés.', 'arti100' ); ?></p>
+				</td>
+			</tr>
+			<tr>
+				<th><?php esc_html_e( 'Image (URL)', 'arti100' ); ?></th>
+				<td>
+					<input type="url" name="arti100_about_image" id="arti100-about-image" value="<?php echo esc_attr( get_option( 'arti100_about_image', '' ) ); ?>" class="large-text" placeholder="https://..." />
+					<button type="button" class="button" id="arti100-about-media"><?php esc_html_e( 'Choisir une image', 'arti100' ); ?></button>
+					<p class="description"><?php esc_html_e( 'Photo de l\'équipe, de l\'atelier ou de votre artisan. Si vide, la section s\'affiche sans image.', 'arti100' ); ?></p>
+				</td>
+			</tr>
 		</table>
 	</div>
 
@@ -654,6 +703,18 @@ function arti100_tab_content() {
 			</div>
 		<?php endfor; ?>
 	</div>
+
+	<script>
+	jQuery(function($){
+		$('#arti100-about-media').on('click', function(){
+			var frame = wp.media({ title: '<?php esc_js_e( 'Sélectionner une image', 'arti100' ); ?>', button: { text: '<?php esc_js_e( 'Utiliser cette image', 'arti100' ); ?>' }, multiple: false });
+			frame.on('select', function(){
+				$('#arti100-about-image').val( frame.state().get('selection').first().toJSON().url );
+			});
+			frame.open();
+		});
+	});
+	</script>
 	<?php
 }
 
@@ -664,44 +725,53 @@ function arti100_tab_integrations() {
 	arti100_admin_card_styles();
 	?>
 	<div class="arti100-card">
-		<h2><?php esc_html_e( '📅 Prise de RDV Calendly', 'arti100' ); ?></h2>
+		<div class="arti100-notice-xxx">💡 <?php esc_html_e( 'Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité.', 'arti100' ); ?></div>
+
+		<h2><?php esc_html_e( '📅 Prise de RDV — Calendly', 'arti100' ); ?></h2>
+		<p><?php esc_html_e( 'Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s\'ouvre au clic.', 'arti100' ); ?></p>
+		<p><?php esc_html_e( 'Comment obtenir votre URL : connectez-vous sur calendly.com → copiez le lien de votre page de événement (ex: https://calendly.com/votre-nom/consultation).', 'arti100' ); ?></p>
 		<table class="form-table">
 			<tr>
 				<th><?php esc_html_e( 'URL Calendly', 'arti100' ); ?></th>
 				<td>
-					<input type="url" name="arti100_calendly_url" value="<?php echo esc_attr( get_option( 'arti100_calendly_url' ) ); ?>" class="large-text" placeholder="https://calendly.com/votre-entreprise" />
-					<p class="description"><?php esc_html_e( 'Votre lien personnel Calendly. Un popup s\'ouvrira au clic sur "Prendre RDV".', 'arti100' ); ?></p>
+					<input type="url" name="arti100_calendly_url" value="<?php echo esc_attr( get_option( 'arti100_calendly_url' ) ); ?>" class="large-text" placeholder="https://calendly.com/votre-entreprise/rdv" />
+					<p class="description"><?php esc_html_e( 'Laissez vide pour désactiver le bouton « Prendre RDV ».', 'arti100' ); ?></p>
 				</td>
 			</tr>
 		</table>
+	</div>
 
-		<h2><?php esc_html_e( '📧 Contact Form 7 (ID du formulaire)', 'arti100' ); ?></h2>
-		<table class="form-table">
-			<tr>
-				<th><?php esc_html_e( 'ID du formulaire CF7', 'arti100' ); ?></th>
-				<td>
-					<input type="number" name="arti100_cf7_id" value="<?php echo esc_attr( get_option( 'arti100_cf7_id' ) ); ?>" />
-					<p class="description"><?php esc_html_e( 'Trouvez l\'ID dans Contact → Formulaires de contact.', 'arti100' ); ?></p>
-				</td>
-			</tr>
-		</table>
-
-		<h2><?php esc_html_e( '🗺️ Google Maps', 'arti100' ); ?></h2>
+	<div class="arti100-card">
+		<h2><?php esc_html_e( '🗺️ Google Maps — Carte interactive', 'arti100' ); ?></h2>
+		<p><?php esc_html_e( 'Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d\'intégration :', 'arti100' ); ?></p>
+		<ol style="margin-left:1.5rem;line-height:2">
+			<li><?php esc_html_e( 'Ouvrez maps.google.com et recherchez votre adresse.', 'arti100' ); ?></li>
+			<li><?php esc_html_e( 'Cliquez sur « Partager » → onglet « Intégrer une carte ».', 'arti100' ); ?></li>
+			<li><?php esc_html_e( 'Sélectionnez une taille (peu importe, le thème l\'adapte), puis copiez le code HTML.', 'arti100' ); ?></li>
+			<li><?php esc_html_e( 'Collez-le dans le champ ci-dessous et enregistrez.', 'arti100' ); ?></li>
+		</ol>
 		<table class="form-table">
 			<tr>
 				<th><?php esc_html_e( 'Code embed iframe', 'arti100' ); ?></th>
 				<td>
-					<textarea name="arti100_maps_embed" rows="4" class="large-text"><?php echo esc_textarea( get_option( 'arti100_maps_embed' ) ); ?></textarea>
-					<p class="description"><?php esc_html_e( 'Collez l\'iframe Google Maps ici. Utiliser aussi le shortcode [arti100_map] dans les pages.', 'arti100' ); ?></p>
+					<textarea name="arti100_maps_embed" rows="5" class="large-text" placeholder='&lt;iframe src="https://www.google.com/maps/embed?pb=..." ...&gt;&lt;/iframe&gt;'><?php echo esc_textarea( get_option( 'arti100_maps_embed' ) ); ?></textarea>
+					<p class="description"><?php esc_html_e( 'Collez ici le code <iframe> copié depuis Google Maps. Vous pouvez aussi utiliser le shortcode [arti100_map] sur n\'importe quelle page.', 'arti100' ); ?></p>
 				</td>
 			</tr>
 		</table>
+	</div>
 
-		<h2><?php esc_html_e( '📊 Google Analytics', 'arti100' ); ?></h2>
+	<div class="arti100-card">
+		<h2><?php esc_html_e( '📊 Google Analytics 4 (GA4)', 'arti100' ); ?></h2>
+		<p><?php esc_html_e( 'Suivez le trafic de votre site avec Google Analytics. Le code de suivi est injecté automatiquement dans toutes les pages.', 'arti100' ); ?></p>
+		<p><?php esc_html_e( 'Comment obtenir votre Measurement ID : connectez-vous sur analytics.google.com → Admin → Flux de données → votre site → copiez l\'ID (format G-XXXXXXXXXX).', 'arti100' ); ?></p>
 		<table class="form-table">
 			<tr>
 				<th><?php esc_html_e( 'GA4 Measurement ID', 'arti100' ); ?></th>
-				<td><input type="text" name="arti100_ga_id" value="<?php echo esc_attr( get_option( 'arti100_ga_id' ) ); ?>" placeholder="G-XXXXXXXXXX" /></td>
+				<td>
+					<input type="text" name="arti100_ga_id" value="<?php echo esc_attr( get_option( 'arti100_ga_id' ) ); ?>" placeholder="G-XXXXXXXXXX" class="regular-text" />
+					<p class="description"><?php esc_html_e( 'Format : G-XXXXXXXXXX. Laissez vide pour désactiver le suivi.', 'arti100' ); ?></p>
+				</td>
 			</tr>
 		</table>
 	</div>

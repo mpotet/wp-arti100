@@ -41,6 +41,7 @@ get_header();
 </section>
 <?php endif; ?>
 
+<?php get_template_part( 'template-parts/about-section' ); ?>
 <?php get_template_part( 'template-parts/services-section' ); ?>
 <?php get_template_part( 'template-parts/portfolio-section' ); ?>
 <?php get_template_part( 'template-parts/team-section' ); ?>
