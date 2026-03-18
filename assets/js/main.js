@@ -1,6 +1,6 @@
 /**
- * Arti100 — main.js
- * Vanilla JS — Header sticky, avant/après slider, menu mobile, compteurs, Calendly
+ * Arti100 - main.js
+ * Vanilla JS - Header sticky, avant/après slider, menu mobile, compteurs, Calendly
  */
 
 'use strict';
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /* =========================================================
-   2. HEADER STICKY — shadow on scroll
+   2. HEADER STICKY - shadow on scroll
    ========================================================= */
 function arti100HeaderSticky() {
 	const header = document.getElementById('masthead');
@@ -223,7 +223,7 @@ function arti100ScrollAnimations() {
 }
 
 /* =========================================================
-   7. CALENDLY — popup au clic
+   7. CALENDLY - popup au clic
    ========================================================= */
 function arti100CalendlyLinks() {
 	const links = document.querySelectorAll('.js-calendly[data-calendly]');
@@ -259,7 +259,7 @@ function arti100CalendlyLinks() {
 }
 
 /* =========================================================
-   8. FORMULAIRE CONTACT — message succès
+   8. FORMULAIRE CONTACT - message succès
    ========================================================= */
 function arti100ContactFormSuccess() {
 	const params = new URLSearchParams(window.location.search);
@@ -290,7 +290,7 @@ function arti100ContactFormSuccess() {
 }
 
 /* =========================================================
-   9. SMOOTH SCROLL — ancres
+   9. SMOOTH SCROLL - ancres
    ========================================================= */
 function arti100SmoothScrollAnchors() {
 	document.querySelectorAll('a[href^="#"]').forEach(function (link) {
@@ -310,7 +310,7 @@ function arti100SmoothScrollAnchors() {
 }
 
 /* =========================================================
-   10. HEADER — style scrolled
+   10. HEADER - style scrolled
    ========================================================= */
 (function injectHeaderScrollStyle() {
 	const s = document.createElement('style');

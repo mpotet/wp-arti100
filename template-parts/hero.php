@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/hero.php
+ * Arti100 - template-parts/hero.php
  * Section hero de la homepage
  */
 

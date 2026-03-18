@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — Custom Post Types & Taxonomies
+ * Arti100 - Custom Post Types & Taxonomies
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -99,7 +99,7 @@ function arti100_register_tax_travaux() {
 add_action( 'init', 'arti100_register_tax_travaux' );
 
 /* =========================================================
-   METABOXES — TRAVAUX
+   METABOXES - TRAVAUX
    ========================================================= */
 function arti100_add_travaux_metaboxes() {
 	add_meta_box( 'arti100_travaux_meta', __( 'Détails du chantier', 'arti100' ), 'arti100_travaux_meta_callback', 'travaux', 'normal', 'high' );
@@ -177,7 +177,7 @@ function arti100_save_travaux_meta( $post_id ) {
 add_action( 'save_post_travaux', 'arti100_save_travaux_meta' );
 
 /* =========================================================
-   METABOXES — SERVICE
+   METABOXES - SERVICE
    ========================================================= */
 function arti100_add_service_metaboxes() {
 	add_meta_box( 'arti100_service_meta', __( 'Détails du service', 'arti100' ), 'arti100_service_meta_callback', 'service', 'normal', 'high' );
@@ -227,7 +227,7 @@ function arti100_save_service_meta( $post_id ) {
 add_action( 'save_post_service', 'arti100_save_service_meta' );
 
 /* =========================================================
-   METABOXES — ARTISAN (équipe)
+   METABOXES - ARTISAN (équipe)
    ========================================================= */
 function arti100_add_artisan_metaboxes() {
 	add_meta_box( 'arti100_artisan_meta', __( 'Profil du membre', 'arti100' ), 'arti100_artisan_meta_callback', 'artisan', 'normal', 'high' );

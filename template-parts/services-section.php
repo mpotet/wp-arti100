@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/services-section.php
+ * Arti100 - template-parts/services-section.php
  */
 if ( ! get_option( 'arti100_show_services', '1' ) ) return;
 

@@ -25,7 +25,7 @@ msgid "⚙️ Arti100"
 msgstr ""
 
 #: inc/admin-settings.php
-msgid "Arti100 — Paramètres du thème"
+msgid "Arti100 - Paramètres du thème"
 msgstr ""
 
 #: inc/admin-settings.php
@@ -485,11 +485,11 @@ msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
 msgstr ""
 
 #: template-parts/portfolio-section.php
-msgid "Avant travaux — %s"
+msgid "Avant travaux - %s"
 msgstr ""
 
 #: template-parts/portfolio-section.php
-msgid "Après travaux — %s"
+msgid "Après travaux - %s"
 msgstr ""
 
 #: template-parts/portfolio-section.php
@@ -645,7 +645,7 @@ msgid "Prendre rendez-vous en ligne"
 msgstr ""
 
 #: template-parts/contact-section.php
-msgid "[Devis] %s — %s"
+msgid "[Devis] %s - %s"
 msgstr ""
 
 #: footer.php

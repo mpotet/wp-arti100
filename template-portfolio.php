@@ -1,9 +1,9 @@
 <?php
 /**
- * Template Name: Portfolio — Réalisations
+ * Template Name: Portfolio - Réalisations
  * Template Post Type: page
  *
- * Arti100 — template-portfolio.php
+ * Arti100 - template-portfolio.php
  */
 get_header();
 ?>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/portfolio-section.php
+ * Arti100 - template-parts/portfolio-section.php
  */
 if ( ! get_option( 'arti100_show_portfolio', '1' ) ) return;
 
@@ -52,11 +52,11 @@ $sous_titre = get_option( 'arti100_portfolio_sous_titre', __( 'XXX - Sous-titre 
 					<?php if ( $has_ba ) : ?>
 						<div class="ba-slider" data-avant="<?php echo esc_url( $photo_avant ); ?>" data-apres="<?php echo esc_url( $photo_apres ); ?>">
 							<div class="ba-avant">
-								<img src="<?php echo esc_url( $photo_avant ); ?>" alt="<?php echo esc_attr( sprintf( __( 'Avant travaux — %s', 'arti100' ), get_the_title() ) ); ?>" loading="lazy" />
+								<img src="<?php echo esc_url( $photo_avant ); ?>" alt="<?php echo esc_attr( sprintf( __( 'Avant travaux - %s', 'arti100' ), get_the_title() ) ); ?>" loading="lazy" />
 								<span class="ba-label ba-label-avant"><?php esc_html_e( 'Avant', 'arti100' ); ?></span>
 							</div>
 							<div class="ba-apres" style="clip-path:inset(0 0 0 50%)">
-								<img src="<?php echo esc_url( $photo_apres ); ?>" alt="<?php echo esc_attr( sprintf( __( 'Après travaux — %s', 'arti100' ), get_the_title() ) ); ?>" loading="lazy" />
+								<img src="<?php echo esc_url( $photo_apres ); ?>" alt="<?php echo esc_attr( sprintf( __( 'Après travaux - %s', 'arti100' ), get_the_title() ) ); ?>" loading="lazy" />
 								<span class="ba-label ba-label-apres"><?php esc_html_e( 'Après', 'arti100' ); ?></span>
 							</div>
 							<div class="ba-handle" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="<?php esc_attr_e( 'Curseur avant/après', 'arti100' ); ?>">

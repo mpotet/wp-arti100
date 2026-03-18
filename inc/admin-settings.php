@@ -1,7 +1,7 @@
 <?php
 /**
- * Arti100 — Admin Settings Page (onglets)
- * Sans plugin tiers — options stockées avec update_option/get_option
+ * Arti100 - Admin Settings Page (onglets)
+ * Sans plugin tiers - options stockées avec update_option/get_option
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -30,6 +30,9 @@ function arti100_save_options() {
 	if ( ! wp_verify_nonce( $_POST['arti100_settings_nonce'], 'arti100_save_settings' ) ) return;
 	if ( ! current_user_can( 'manage_options' ) ) return;
 
+	// WordPress ajoute des slashes sur $_POST via wp_magic_quotes() - on les supprime avant de sanitizer
+	$_POST = wp_unslash( $_POST );
+
 	$tab = isset( $_POST['arti100_active_tab'] ) ? sanitize_key( $_POST['arti100_active_tab'] ) : 'general';
 
 	if ( $tab === 'general' ) {
@@ -41,7 +44,6 @@ function arti100_save_options() {
 			'arti100_address'       => 'sanitize_textarea_field',
 			'arti100_zone'          => 'sanitize_text_field',
 			'arti100_siret'         => 'sanitize_text_field',
-			'arti100_metier'        => 'sanitize_text_field',
 			'arti100_hero_title'    => 'sanitize_text_field',
 			'arti100_hero_subtitle' => 'sanitize_textarea_field',
 			'arti100_hero_cta'      => 'sanitize_text_field',
@@ -145,7 +147,7 @@ function arti100_save_options() {
 			}
 		}
 
-		// Google Maps — wp_kses_post strips <iframe>, on utilise une allowlist dédiée
+		// Google Maps - wp_kses_post strips <iframe>, on utilise une allowlist dédiée
 		if ( isset( $_POST['arti100_maps_embed'] ) ) {
 			$iframe_allowed = [
 				'iframe' => [
@@ -193,7 +195,7 @@ function arti100_settings_page() {
 	<div class="wrap arti100-admin-wrap">
 		<h1 style="display:flex;align-items:center;gap:10px">
 			<span style="font-size:2rem">🔧</span>
-			<?php esc_html_e( 'Arti100 — Paramètres du thème', 'arti100' ); ?>
+			<?php esc_html_e( 'Arti100 - Paramètres du thème', 'arti100' ); ?>
 		</h1>
 
 		<nav class="nav-tab-wrapper wp-clearfix" style="margin-bottom:20px">
@@ -266,20 +268,6 @@ function arti100_tab_general() {
 			<tr>
 				<th><?php esc_html_e( 'Slogan', 'arti100' ); ?></th>
 				<td><input type="text" name="arti100_slogan" value="<?php echo esc_attr( get_option( 'arti100_slogan', 'XXX - Votre slogan accrocheur' ) ); ?>" class="large-text" /></td>
-			</tr>
-			<tr>
-				<th><?php esc_html_e( 'Métier principal', 'arti100' ); ?></th>
-				<td>
-					<select name="arti100_metier">
-						<?php
-						$metiers = [ 'plombier' => 'Plombier', 'electricien' => 'Électricien', 'plaquiste' => 'Plaquiste / Plâtrier', 'maçon' => 'Maçon', 'peintre' => 'Peintre', 'menuisier' => 'Menuisier', 'chauffagiste' => 'Chauffagiste', 'charpentier' => 'Charpentier', 'autre' => 'Autre' ];
-						$current = get_option( 'arti100_metier', 'plombier' );
-						foreach ( $metiers as $val => $label ) {
-							printf( '<option value="%s"%s>%s</option>', esc_attr( $val ), selected( $current, $val, false ), esc_html( $label ) );
-						}
-						?>
-					</select>
-				</td>
 			</tr>
 			<tr>
 				<th><?php esc_html_e( 'Téléphone', 'arti100' ); ?></th>
@@ -451,7 +439,7 @@ function arti100_tab_content() {
 
 	<!-- ▸ À propos -->
 	<div class="arti100-card">
-		<h2><?php esc_html_e( '🏢 À propos — Présentation de l\'entreprise', 'arti100' ); ?></h2>
+		<h2><?php esc_html_e( '🏢 À propos - Présentation de l\'entreprise', 'arti100' ); ?></h2>
 		<table class="form-table">
 			<tr>
 				<th><?php esc_html_e( 'Titre de la section', 'arti100' ); ?></th>
@@ -631,11 +619,11 @@ function arti100_tab_content() {
 				<td>
 					<label style="display:block;margin-bottom:6px">
 						<input type="radio" name="arti100_contact_mode" value="texte" <?php checked( $contact_mode, 'texte' ); ?> />
-						<?php esc_html_e( 'Texte uniquement — affiche téléphone, email et horaires', 'arti100' ); ?>
+						<?php esc_html_e( 'Texte uniquement - affiche téléphone, email et horaires', 'arti100' ); ?>
 					</label>
 					<label style="display:block">
 						<input type="radio" name="arti100_contact_mode" value="lien" <?php checked( $contact_mode, 'lien' ); ?> />
-						<?php esc_html_e( 'Lien externe — ajoute un bouton vers un site de RDV / contact', 'arti100' ); ?>
+						<?php esc_html_e( 'Lien externe - ajoute un bouton vers un site de RDV / contact', 'arti100' ); ?>
 					</label>
 				</td>
 			</tr>
@@ -727,7 +715,7 @@ function arti100_tab_integrations() {
 	<div class="arti100-card">
 		<div class="arti100-notice-xxx">💡 <?php esc_html_e( 'Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité.', 'arti100' ); ?></div>
 
-		<h2><?php esc_html_e( '📅 Prise de RDV — Calendly', 'arti100' ); ?></h2>
+		<h2><?php esc_html_e( '📅 Prise de RDV - Calendly', 'arti100' ); ?></h2>
 		<p><?php esc_html_e( 'Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s\'ouvre au clic.', 'arti100' ); ?></p>
 		<p><?php esc_html_e( 'Comment obtenir votre URL : connectez-vous sur calendly.com → copiez le lien de votre page de événement (ex: https://calendly.com/votre-nom/consultation).', 'arti100' ); ?></p>
 		<table class="form-table">
@@ -742,7 +730,7 @@ function arti100_tab_integrations() {
 	</div>
 
 	<div class="arti100-card">
-		<h2><?php esc_html_e( '🗺️ Google Maps — Carte interactive', 'arti100' ); ?></h2>
+		<h2><?php esc_html_e( '🗺️ Google Maps - Carte interactive', 'arti100' ); ?></h2>
 		<p><?php esc_html_e( 'Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d\'intégration :', 'arti100' ); ?></p>
 		<ol style="margin-left:1.5rem;line-height:2">
 			<li><?php esc_html_e( 'Ouvrez maps.google.com et recherchez votre adresse.', 'arti100' ); ?></li>
@@ -803,7 +791,7 @@ function arti100_tab_seo() {
 				<th><?php esc_html_e( 'Texte pied de page', 'arti100' ); ?></th>
 				<td>
 					<?php
-					wp_editor( get_option( 'arti100_footer_text', '© ' . date( 'Y' ) . ' — Tous droits réservés.' ), 'arti100_footer_text', [
+					wp_editor( get_option( 'arti100_footer_text', '© ' . date( 'Y' ) . ' - Tous droits réservés.' ), 'arti100_footer_text', [
 						'textarea_rows' => 5,
 						'media_buttons' => false,
 					] );

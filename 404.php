@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — 404.php
+ * Arti100 - 404.php
  */
 get_header();
 ?>

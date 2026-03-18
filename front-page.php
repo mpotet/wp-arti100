@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — front-page.php
+ * Arti100 - front-page.php
  * Template homepage (supporte "page statique" dans Réglages > Lecture)
  */
 get_header();

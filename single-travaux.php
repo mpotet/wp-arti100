@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — single-travaux.php
+ * Arti100 - single-travaux.php
  * Détail d'une réalisation avec avant/après slider
  */
 get_header();

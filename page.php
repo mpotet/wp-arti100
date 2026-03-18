@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — page.php
+ * Arti100 - page.php
  * Template page WP standard
  */
 get_header();

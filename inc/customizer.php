@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — Customizer (couleurs dynamiques CSS)
+ * Arti100 - Customizer (couleurs dynamiques CSS)
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -17,15 +17,17 @@ function arti100_inject_dynamic_colors() {
 	$primary_light = arti100_adjust_color( $primary, 60 );
 	$accent_dark   = arti100_adjust_color( $accent, -20 );
 
-	echo '<style id="arti100-dynamic-colors">:root{';
-	echo '--color-primary:'        . esc_attr( $primary ) . ';';
-	echo '--color-primary-dark:'   . esc_attr( $primary_dark ) . ';';
-	echo '--color-primary-light:'  . esc_attr( $primary_light ) . ';';
-	echo '--color-accent:'         . esc_attr( $accent ) . ';';
-	echo '--color-accent-dark:'    . esc_attr( $accent_dark ) . ';';
-	echo '}</style>' . "\n";
+	// Injecter après wp_print_styles (priorité 8) pour surcharger main.css
+	echo '<style id="arti100-dynamic-colors">:root{'
+		. '--color-primary:'       . esc_attr( $primary )       . ';'
+		. '--color-primary-dark:'  . esc_attr( $primary_dark )  . ';'
+		. '--color-primary-light:' . esc_attr( $primary_light ) . ';'
+		. '--color-accent:'        . esc_attr( $accent )        . ';'
+		. '--color-accent-dark:'   . esc_attr( $accent_dark )   . ';'
+		. '}</style>' . "\n";
 }
-add_action( 'wp_head', 'arti100_inject_dynamic_colors', 5 );
+// Priorité 20 : wp_print_styles est à priorité 8 → notre <style> vient après les <link>
+add_action( 'wp_head', 'arti100_inject_dynamic_colors', 20 );
 
 /**
  * Adjust brightness of a hex color.

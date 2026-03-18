@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/testimonials-section.php
+ * Arti100 - template-parts/testimonials-section.php
  * Les témoignages viennent :
  *   1. En priorité des CPT Réalisations (travaux) si renseignés.
  *   2. Sinon depuis les options admin (onglet Contenu → Témoignages).

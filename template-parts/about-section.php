@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/about-section.php
+ * Arti100 - template-parts/about-section.php
  *
  * Section "À propos" : image + texte de présentation côte à côte.
  * Activée/désactivée via l'option arti100_show_about.

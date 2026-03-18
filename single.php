@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — single.php
+ * Arti100 - single.php
  * Template article blog
  */
 get_header();

@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — footer.php
+ * Arti100 - footer.php
  */
 
 $company     = arti100_get_company_name();

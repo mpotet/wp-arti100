@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — header.php
+ * Arti100 - header.php
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>

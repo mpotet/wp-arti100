@@ -26,8 +26,8 @@ msgstr "📈 SEO & Footer"
 msgid "Arti100 Settings"
 msgstr "Arti100 Settings"
 
-msgid "Arti100 — Paramètres du thème"
-msgstr "Arti100 — Paramètres du thème"
+msgid "Arti100 - Paramètres du thème"
+msgstr "Arti100 - Paramètres du thème"
 
 msgid "⚙️ Arti100"
 msgstr "⚙️ Arti100"
@@ -254,8 +254,8 @@ msgstr "Cochez pour afficher une section sur la page d'accueil."
 msgid "À propos (Présentation entreprise)"
 msgstr "À propos (Présentation entreprise)"
 
-msgid "🏢 À propos — Présentation de l'entreprise"
-msgstr "🏢 À propos — Présentation de l'entreprise"
+msgid "🏢 À propos - Présentation de l'entreprise"
+msgstr "🏢 À propos - Présentation de l'entreprise"
 
 msgid "Titre de la section"
 msgstr "Titre de la section"
@@ -326,11 +326,11 @@ msgstr "Choisissez comment les visiteurs peuvent vous contacter. Dans les deux c
 msgid "Mode"
 msgstr "Mode"
 
-msgid "Texte uniquement — affiche téléphone, email et horaires"
-msgstr "Texte uniquement — affiche téléphone, email et horaires"
+msgid "Texte uniquement - affiche téléphone, email et horaires"
+msgstr "Texte uniquement - affiche téléphone, email et horaires"
 
-msgid "Lien externe — ajoute un bouton vers un site de RDV / contact"
-msgstr "Lien externe — ajoute un bouton vers un site de RDV / contact"
+msgid "Lien externe - ajoute un bouton vers un site de RDV / contact"
+msgstr "Lien externe - ajoute un bouton vers un site de RDV / contact"
 
 msgid "URL du lien (mode Lien)"
 msgstr "URL du lien (mode Lien)"
@@ -368,8 +368,8 @@ msgstr "Témoignages clients"
 msgid "Témoin client"
 msgstr "Témoin client"
 
-msgid "📅 Prise de RDV — Calendly"
-msgstr "📅 Prise de RDV — Calendly"
+msgid "📅 Prise de RDV - Calendly"
+msgstr "📅 Prise de RDV - Calendly"
 
 msgid "URL Calendly"
 msgstr "URL Calendly"
@@ -386,8 +386,8 @@ msgstr "Laissez vide pour désactiver le bouton « Prendre RDV »."
 msgid "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité."
 msgstr "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité."
 
-msgid "🗺️ Google Maps — Carte interactive"
-msgstr "🗺️ Google Maps — Carte interactive"
+msgid "🗺️ Google Maps - Carte interactive"
+msgstr "🗺️ Google Maps - Carte interactive"
 
 msgid "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :"
 msgstr "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :"
@@ -581,11 +581,11 @@ msgstr "Nos chantiers"
 msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
 msgstr "Découvrez nos derniers travaux réalisés avec professionnalisme."
 
-msgid "Avant travaux — %s"
-msgstr "Avant travaux — %s"
+msgid "Avant travaux - %s"
+msgstr "Avant travaux - %s"
 
-msgid "Après travaux — %s"
-msgstr "Après travaux — %s"
+msgid "Après travaux - %s"
+msgstr "Après travaux - %s"
 
 msgid "Avant"
 msgstr "Avant"
@@ -806,8 +806,8 @@ msgstr "Toutes les réalisations"
 msgid "Intervention sur %s."
 msgstr "Intervention sur %s."
 
-msgid "[Devis] %s — %s"
-msgstr "[Devis] %s — %s"
+msgid "[Devis] %s - %s"
+msgstr "[Devis] %s - %s"
 
 msgid "Lire la suite"
 msgstr "Lire la suite"

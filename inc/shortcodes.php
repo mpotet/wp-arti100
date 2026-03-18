@@ -1,12 +1,12 @@
 <?php
 /**
- * Arti100 — Shortcodes
+ * Arti100 - Shortcodes
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 /* =========================================================
-   [arti100_map] — Google Maps embed
+   [arti100_map] - Google Maps embed
    ========================================================= */
 function arti100_shortcode_map( $atts ) {
 	$atts = shortcode_atts( [ 'height' => '400' ], $atts, 'arti100_map' );
@@ -19,7 +19,7 @@ function arti100_shortcode_map( $atts ) {
 add_shortcode( 'arti100_map', 'arti100_shortcode_map' );
 
 /* =========================================================
-   [arti100_devis_btn] — Bouton devis / Calendly
+   [arti100_devis_btn] - Bouton devis / Calendly
    ========================================================= */
 function arti100_shortcode_devis_btn( $atts ) {
 	$atts = shortcode_atts( [
@@ -42,7 +42,7 @@ function arti100_shortcode_devis_btn( $atts ) {
 add_shortcode( 'arti100_devis_btn', 'arti100_shortcode_devis_btn' );
 
 /* =========================================================
-   [arti100_phone] — Numéro de téléphone cliquable
+   [arti100_phone] - Numéro de téléphone cliquable
    ========================================================= */
 function arti100_shortcode_phone( $atts ) {
 	$atts = shortcode_atts( [ 'class' => 'phone-link' ], $atts, 'arti100_phone' );
@@ -54,7 +54,7 @@ function arti100_shortcode_phone( $atts ) {
 add_shortcode( 'arti100_phone', 'arti100_shortcode_phone' );
 
 /* =========================================================
-   [arti100_services] — Liste des services
+   [arti100_services] - Liste des services
    ========================================================= */
 function arti100_shortcode_services( $atts ) {
 	$atts = shortcode_atts( [ 'limit' => 6, 'columns' => 3 ], $atts, 'arti100_services' );
@@ -84,7 +84,7 @@ function arti100_shortcode_services( $atts ) {
 add_shortcode( 'arti100_services', 'arti100_shortcode_services' );
 
 /* =========================================================
-   [arti100_realisations] — Portfolio travaux
+   [arti100_realisations] - Portfolio travaux
    ========================================================= */
 function arti100_shortcode_realisations( $atts ) {
 	$atts = shortcode_atts( [ 'limit' => 6 ], $atts, 'arti100_realisations' );
@@ -117,7 +117,7 @@ function arti100_shortcode_realisations( $atts ) {
 add_shortcode( 'arti100_realisations', 'arti100_shortcode_realisations' );
 
 /* =========================================================
-   [arti100_zone] — Zone d'intervention
+   [arti100_zone] - Zone d'intervention
    ========================================================= */
 function arti100_shortcode_zone() {
 	$zone = get_option( 'arti100_zone', '' );

@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — index.php
+ * Arti100 - index.php
  * Template blog / liste articles (fallback général)
  */
 get_header();

@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/contact-section.php
+ * Arti100 - template-parts/contact-section.php
  *
  * Mode "texte" (défaut) : affiche les coordonnées + horaires.
  * Mode "lien"           : idem + un bouton vers une URL externe (RDV, devis…).

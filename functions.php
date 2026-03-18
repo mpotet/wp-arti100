@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — functions.php
+ * Arti100 - functions.php
  * Thème WordPress pour artisans locaux.
  */
 
@@ -69,7 +69,7 @@ function arti100_enqueue_assets() {
 		. '.fab-phone{display:none;position:fixed;bottom:1.4rem;right:1.4rem;z-index:9998;width:56px;height:56px;border-radius:50%;background:var(--color-accent,#F5821F);color:#fff;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.25);text-decoration:none;transition:transform .2s}'
 		. '.fab-phone:hover{transform:scale(1.08)}'
 		. '.fab-phone .material-symbols-outlined{font-size:28px}'
-		/* Trust strip — icônes visibles + cercle accent */
+		/* Trust strip - icônes visibles + cercle accent */
 		. '.trust-strip{padding:.25rem 0}'
 		. '.trust-strip-inner{padding:1.75rem 1.5rem;gap:0;align-items:stretch}'
 		. '.trust-item{flex:1 1 0;flex-direction:column;align-items:center;text-align:center;gap:.6rem;padding:1.25rem 1rem;border-right:1px solid var(--color-border)}'
@@ -79,7 +79,7 @@ function arti100_enqueue_assets() {
 		. '.trust-item span{font-size:.82rem;margin-top:0}'
 		. '@media(max-width:900px){.trust-item{flex:1 1 45%;border-right:none;border-bottom:1px solid var(--color-border)}}'
 		. '@media(max-width:480px){.trust-item{flex:1 1 100%;flex-direction:row;align-items:center;text-align:left;gap:1rem;border-bottom:1px solid var(--color-border)}}'
-		/* Contact section — redesign */
+		/* Contact section - redesign */
 		. '.contact-intro-text{max-width:640px;margin:0 auto;text-align:center;color:var(--color-text-muted);font-size:1rem;line-height:1.7}'
 		. '.contact-panels{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2.5rem}'
 		. '.contact-panel{border-radius:var(--radius-md);padding:2rem;display:flex;flex-direction:column;gap:1.5rem}'
@@ -108,7 +108,7 @@ function arti100_enqueue_assets() {
 		. '.contact-map-full{margin-top:1.5rem;border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-md)}'
 		. '.contact-map-full iframe{width:100%;height:320px;display:block;border:0}'
 		. '@media(max-width:768px){.contact-panels{grid-template-columns:1fr}}'
-		/* Footer — fond continu + centrage copyright */
+		/* Footer - fond continu + centrage copyright */
 		. '.site-footer{background:var(--color-bg-dark)}'
 		. '.footer-bottom-inner{justify-content:center;gap:2rem}'
 		/* About section */
@@ -140,15 +140,13 @@ function arti100_enqueue_assets() {
 add_action( 'wp_enqueue_scripts', 'arti100_enqueue_assets' );
 
 /* =========================================================
-   ADMIN — Enqueue media library on settings page
+   ADMIN - Enqueue media library on settings page
    ========================================================= */
-function arti100_admin_enqueue() {
-	$screen = get_current_screen();
-	if ( $screen && strpos( $screen->id, 'arti100' ) !== false ) {
+add_action( 'admin_enqueue_scripts', function() {
+	if ( isset( $_GET['page'] ) && $_GET['page'] === 'arti100-settings' ) {
 		wp_enqueue_media();
 	}
-}
-add_action( 'admin_enqueue_scripts', 'arti100_admin_enqueue' );
+} );
 
 /* =========================================================
    FLUSH REWRITE RULES (activation thème)
@@ -332,7 +330,7 @@ remove_action( 'wp_head', 'wlwmanifest_link' );
 remove_action( 'wp_head', 'wp_generator' );
 
 /* =========================================================
-   10. LANGUAGE SWITCHER — Admin Frontend Preview
+   10. LANGUAGE SWITCHER - Admin Frontend Preview
    ========================================================= */
 
 /**

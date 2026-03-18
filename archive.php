@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — archive.php
+ * Arti100 - archive.php
  * Archive pour les CPT travaux et service
  */
 get_header();

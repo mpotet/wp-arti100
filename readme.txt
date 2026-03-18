@@ -8,7 +8,7 @@ Requires PHP: 8.0
 License:      GPLv2 or later
 
 Thème WordPress one-page pour artisans, professionnels de santé et PME locales.
-100 % configurable depuis l'administration — aucune retouche de code requise.
+100 % configurable depuis l'administration - aucune retouche de code requise.
 
 == Description ==
 
@@ -92,10 +92,10 @@ Menu : Équipe → Ajouter un membre
 
 == Langues ==
 
-Dossier languages/ — três fichiers compilés (.mo) :
-- fr_FR — Français (langue par défaut)
-- en_US — English
-- es_ES — Español
+Dossier languages/ - três fichiers compilés (.mo) :
+- fr_FR - Français (langue par défaut)
+- en_US - English
+- es_ES - Español
 
 Pour ajouter une langue : copiez fr_FR.po, traduisez les msgstr, compilez avec
 `python languages/generate_mo.py` ou utilisez Poedit.

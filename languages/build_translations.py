@@ -1,5 +1,5 @@
 """
-build_translations.py — Arti100
+build_translations.py - Arti100
 Génère fr_FR.po, en_US.po, es_ES.po complets depuis un dictionnaire centralisé.
 Lance ensuite generate_mo.py pour compiler les .mo.
 """
@@ -19,7 +19,7 @@ STRINGS = {
     "🔌 Intégrations":                  {"en": "🔌 Integrations",                      "es": "🔌 Integraciones"},
     "📈 SEO & Footer":                  {"en": "📈 SEO & Footer",                      "es": "📈 SEO y Pie de página"},
     "Arti100 Settings":                 {"en": "Arti100 Settings",                     "es": "Ajustes de Arti100"},
-    "Arti100 — Paramètres du thème":    {"en": "Arti100 — Theme Settings",             "es": "Arti100 — Ajustes del tema"},
+    "Arti100 - Paramètres du thème":    {"en": "Arti100 - Theme Settings",             "es": "Arti100 - Ajustes del tema"},
     "⚙️ Arti100":                       {"en": "⚙️ Arti100",                           "es": "⚙️ Arti100"},
     "Enregistrer les paramètres":       {"en": "Save Settings",                        "es": "Guardar ajustes"},
     "✅ Paramètres sauvegardés.":       {"en": "✅ Settings saved.",                   "es": "✅ Ajustes guardados."},
@@ -117,9 +117,9 @@ STRINGS = {
     "À propos (Présentation entreprise)": {"en": "About (Company presentation)",     "es": "Acerca de (Presentación empresa)"},
 
     # ── About section ─────────────────────────────────────────────────
-    "🏢 À propos — Présentation de l'entreprise": {
-        "en": "🏢 About — Company presentation",
-        "es": "🏢 Acerca de — Presentación de la empresa"},
+    "🏢 À propos - Présentation de l'entreprise": {
+        "en": "🏢 About - Company presentation",
+        "es": "🏢 Acerca de - Presentación de la empresa"},
     "Titre de la section":             {"en": "Section title",                        "es": "Título de la sección"},
     "Texte principal affiché dans la section À propos. Sauts de ligne supportés.": {
         "en": "Main text displayed in the About section. Line breaks supported.",
@@ -159,12 +159,12 @@ STRINGS = {
         "en": "Choose how visitors can contact you. In both cases, phone, email and hours are displayed.",
         "es": "Elija cómo pueden contactarle los visitantes. En ambos casos se muestran el teléfono, el email y los horarios."},
     "Mode":                            {"en": "Mode",                                 "es": "Modo"},
-    "Texte uniquement — affiche téléphone, email et horaires": {
-        "en": "Text only — displays phone, email and opening hours",
-        "es": "Solo texto — muestra teléfono, email y horarios"},
-    "Lien externe — ajoute un bouton vers un site de RDV / contact": {
-        "en": "External link — adds a button to an appointment / contact site",
-        "es": "Enlace externo — añade un botón a un sitio de citas / contacto"},
+    "Texte uniquement - affiche téléphone, email et horaires": {
+        "en": "Text only - displays phone, email and opening hours",
+        "es": "Solo texto - muestra teléfono, email y horarios"},
+    "Lien externe - ajoute un bouton vers un site de RDV / contact": {
+        "en": "External link - adds a button to an appointment / contact site",
+        "es": "Enlace externo - añade un botón a un sitio de citas / contacto"},
     "URL du lien (mode Lien)":         {"en": "Link URL (Link mode)",                 "es": "URL del enlace (modo Enlace)"},
     "Calendly, Doctolib, WhatsApp, Google Forms, etc.": {
         "en": "Calendly, Doctolib, WhatsApp, Google Forms, etc.",
@@ -187,7 +187,7 @@ STRINGS = {
     "Témoin client":                   {"en": "Customer",                             "es": "Cliente"},
 
     # ── Integrations ──────────────────────────────────────────────────
-    "📅 Prise de RDV — Calendly":      {"en": "📅 Appointment Booking — Calendly",    "es": "📅 Reserva de citas — Calendly"},
+    "📅 Prise de RDV - Calendly":      {"en": "📅 Appointment Booking - Calendly",    "es": "📅 Reserva de citas - Calendly"},
     "URL Calendly":                    {"en": "Calendly URL",                         "es": "URL de Calendly"},
     "Calendly est un outil gratuit de prise de rendez-vous en ligne. Une fois configuré, un bouton « Prendre RDV » apparaît dans le héro et un popup Calendly s'ouvre au clic.": {
         "en": "Calendly is a free online appointment booking tool. Once configured, a \"Book an appointment\" button appears in the hero and a Calendly popup opens on click.",
@@ -201,9 +201,9 @@ STRINGS = {
     "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité.": {
         "en": "All integrations are optional. Leave a field empty to disable the feature.",
         "es": "Todas las integraciones son opcionales. Deje un campo vacío para desactivar la función."},
-    "🗺️ Google Maps — Carte interactive": {
-        "en": "🗺️ Google Maps — Interactive map",
-        "es": "🗺️ Google Maps — Mapa interactivo"},
+    "🗺️ Google Maps - Carte interactive": {
+        "en": "🗺️ Google Maps - Interactive map",
+        "es": "🗺️ Google Maps - Mapa interactivo"},
     "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :": {
         "en": "Display a Google Maps map at the bottom of the Contact section. Here is how to copy the embed code:",
         "es": "Muestre un mapa de Google Maps en la parte inferior de la sección Contacto. Cómo copiar el código de integración:"},
@@ -310,8 +310,8 @@ STRINGS = {
     "Découvrez nos derniers travaux réalisés avec professionnalisme.": {
         "en": "Discover our latest projects, carried out with professionalism.",
         "es": "Descubra nuestros últimos proyectos, realizados con profesionalismo."},
-    "Avant travaux — %s":              {"en": "Before — %s",                          "es": "Antes — %s"},
-    "Après travaux — %s":              {"en": "After — %s",                           "es": "Después — %s"},
+    "Avant travaux - %s":              {"en": "Before - %s",                          "es": "Antes - %s"},
+    "Après travaux - %s":              {"en": "After - %s",                           "es": "Después - %s"},
     "Avant":                           {"en": "Before",                               "es": "Antes"},
     "Après":                           {"en": "After",                                "es": "Después"},
     "Curseur avant/après":             {"en": "Before/after slider",                  "es": "Control deslizante antes/después"},
@@ -416,7 +416,7 @@ STRINGS = {
     "Demandez un devis similaire":     {"en": "Request a similar quote",              "es": "Solicitar un presupuesto similar"},
     "Toutes les réalisations":         {"en": "All projects",                         "es": "Todos los proyectos"},
     "Intervention sur %s.":            {"en": "Serving %s.",                          "es": "Intervención en %s."},
-    "[Devis] %s — %s":                 {"en": "[Quote] %s — %s",                     "es": "[Presupuesto] %s — %s"},
+    "[Devis] %s - %s":                 {"en": "[Quote] %s - %s",                     "es": "[Presupuesto] %s - %s"},
     "Lire la suite":                   {"en": "Read more",                            "es": "Leer más"},
     "Suivant":                         {"en": "Next",                                 "es": "Siguiente"},
     "Précédent":                       {"en": "Previous",                             "es": "Anterior"},
@@ -494,7 +494,7 @@ def write_po(path, header, entries):
         lines.append(f'msgid "{mid}"\nmsgstr "{mst}"\n')
     with open(path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
-    print(f'[OK] {os.path.basename(path)} — {len(entries)} chaînes')
+    print(f'[OK] {os.path.basename(path)} - {len(entries)} chaînes')
 
 
 # Build entry lists

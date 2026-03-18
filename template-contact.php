@@ -3,7 +3,7 @@
  * Template Name: Page Contact & Devis
  * Template Post Type: page
  *
- * Arti100 — template-contact.php
+ * Arti100 - template-contact.php
  */
 get_header();
 ?>

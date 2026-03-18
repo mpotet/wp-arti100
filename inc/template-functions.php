@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — Template Functions
+ * Arti100 - Template Functions
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;

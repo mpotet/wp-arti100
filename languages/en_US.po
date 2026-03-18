@@ -26,8 +26,8 @@ msgstr "📈 SEO & Footer"
 msgid "Arti100 Settings"
 msgstr "Arti100 Settings"
 
-msgid "Arti100 — Paramètres du thème"
-msgstr "Arti100 — Theme Settings"
+msgid "Arti100 - Paramètres du thème"
+msgstr "Arti100 - Theme Settings"
 
 msgid "⚙️ Arti100"
 msgstr "⚙️ Arti100"
@@ -254,8 +254,8 @@ msgstr "Check to show a section on the homepage."
 msgid "À propos (Présentation entreprise)"
 msgstr "About (Company presentation)"
 
-msgid "🏢 À propos — Présentation de l'entreprise"
-msgstr "🏢 About — Company presentation"
+msgid "🏢 À propos - Présentation de l'entreprise"
+msgstr "🏢 About - Company presentation"
 
 msgid "Titre de la section"
 msgstr "Section title"
@@ -326,11 +326,11 @@ msgstr "Choose how visitors can contact you. In both cases, phone, email and hou
 msgid "Mode"
 msgstr "Mode"
 
-msgid "Texte uniquement — affiche téléphone, email et horaires"
-msgstr "Text only — displays phone, email and opening hours"
+msgid "Texte uniquement - affiche téléphone, email et horaires"
+msgstr "Text only - displays phone, email and opening hours"
 
-msgid "Lien externe — ajoute un bouton vers un site de RDV / contact"
-msgstr "External link — adds a button to an appointment / contact site"
+msgid "Lien externe - ajoute un bouton vers un site de RDV / contact"
+msgstr "External link - adds a button to an appointment / contact site"
 
 msgid "URL du lien (mode Lien)"
 msgstr "Link URL (Link mode)"
@@ -368,8 +368,8 @@ msgstr "Customer testimonials"
 msgid "Témoin client"
 msgstr "Customer"
 
-msgid "📅 Prise de RDV — Calendly"
-msgstr "📅 Appointment Booking — Calendly"
+msgid "📅 Prise de RDV - Calendly"
+msgstr "📅 Appointment Booking - Calendly"
 
 msgid "URL Calendly"
 msgstr "Calendly URL"
@@ -386,8 +386,8 @@ msgstr "Leave empty to disable the \"Book an appointment\" button."
 msgid "Ces intégrations sont toutes facultatives. Laissez un champ vide pour désactiver la fonctionnalité."
 msgstr "All integrations are optional. Leave a field empty to disable the feature."
 
-msgid "🗺️ Google Maps — Carte interactive"
-msgstr "🗺️ Google Maps — Interactive map"
+msgid "🗺️ Google Maps - Carte interactive"
+msgstr "🗺️ Google Maps - Interactive map"
 
 msgid "Affichez une carte Google Maps en bas de la section Contact. Voici comment copier le code d'intégration :"
 msgstr "Display a Google Maps map at the bottom of the Contact section. Here is how to copy the embed code:"
@@ -581,11 +581,11 @@ msgstr "Our work"
 msgid "Découvrez nos derniers travaux réalisés avec professionnalisme."
 msgstr "Discover our latest projects, carried out with professionalism."
 
-msgid "Avant travaux — %s"
-msgstr "Before — %s"
+msgid "Avant travaux - %s"
+msgstr "Before - %s"
 
-msgid "Après travaux — %s"
-msgstr "After — %s"
+msgid "Après travaux - %s"
+msgstr "After - %s"
 
 msgid "Avant"
 msgstr "Before"
@@ -806,8 +806,8 @@ msgstr "All projects"
 msgid "Intervention sur %s."
 msgstr "Serving %s."
 
-msgid "[Devis] %s — %s"
-msgstr "[Quote] %s — %s"
+msgid "[Devis] %s - %s"
+msgstr "[Quote] %s - %s"
 
 msgid "Lire la suite"
 msgstr "Read more"

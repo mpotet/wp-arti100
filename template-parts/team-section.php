@@ -1,6 +1,6 @@
 <?php
 /**
- * Arti100 — template-parts/team-section.php
+ * Arti100 - template-parts/team-section.php
  */
 if ( ! get_option( 'arti100_show_equipe', '1' ) ) return;
 

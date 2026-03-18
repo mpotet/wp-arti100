@@ -3,7 +3,7 @@
  * Template Name: Page Services
  * Template Post Type: page
  *
- * Arti100 — template-services.php
+ * Arti100 - template-services.php
  */
 get_header();
 ?>
